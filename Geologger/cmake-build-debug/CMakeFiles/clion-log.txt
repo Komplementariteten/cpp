@@ -1,0 +1,18 @@
+/usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/local/Cellar/llvm/6.0.1/bin/clang -DCMAKE_CXX_COMPILER=/usr/local/Cellar/llvm/6.0.1/bin/clang++ -G "CodeBlocks - Unix Makefiles" /Users/me/Documents/Workspace/Cpp/Geologger
+-- Boost version: 1.66.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+-- Boost_INCLUDE_DIRS: /usr/local/include
+-- Boost_LIBRARIES: /usr/local/lib/libboost_system.dylib;/usr/local/lib/libboost_filesystem.dylib
+-- Boost_VERSION: 106600
+-- Boost version: 1.66.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+-- Boost_INCLUDE_DIRS: /usr/local/include
+-- Boost_LIBRARIES: /usr/local/lib/libboost_system.dylib;/usr/local/lib/libboost_filesystem.dylib
+-- Boost_VERSION: 106600
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug

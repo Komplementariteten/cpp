@@ -1,0 +1,1 @@
+/usr/local/Cellar/llvm/6.0.1/bin/clang++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Geologger.dir/main.cpp.o  -o Geologger server/libudpserver.a /usr/local/lib/libboost_system.dylib /usr/local/lib/libboost_filesystem.dylib 

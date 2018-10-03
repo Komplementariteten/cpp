@@ -1,0 +1,2 @@
+/usr/bin/ar qc libudpserver.a  CMakeFiles/udpserver.dir/udp_server.cpp.o
+/usr/bin/ranlib libudpserver.a

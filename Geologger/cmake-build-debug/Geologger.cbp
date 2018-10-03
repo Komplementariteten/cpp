@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Geologger"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\server\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Geologger">
+				<Option output="/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Geologger" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/me/Documents/Workspace/Cpp/Geologger/include"/>
+					<Add directory="/Users/me/Documents/Workspace/Cpp/Geologger/server"/>
+					<Add directory="/usr/local/Cellar/llvm/6.0.1/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/llvm/6.0.1/lib/clang/6.0.1/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 Geologger"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Geologger/fast">
+				<Option output="/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Geologger" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/me/Documents/Workspace/Cpp/Geologger/include"/>
+					<Add directory="/Users/me/Documents/Workspace/Cpp/Geologger/server"/>
+					<Add directory="/usr/local/Cellar/llvm/6.0.1/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/llvm/6.0.1/lib/clang/6.0.1/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 Geologger/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udpserver">
+				<Option output="/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server/libudpserver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/me/Documents/Workspace/Cpp/Geologger/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/me/Documents/Workspace/Cpp/Geologger/server"/>
+					<Add directory="/usr/local/Cellar/llvm/6.0.1/include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/6.0.1/lib/clang/6.0.1/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 udpserver"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udpserver/fast">
+				<Option output="/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server/libudpserver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/me/Documents/Workspace/Cpp/Geologger/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/me/Documents/Workspace/Cpp/Geologger/server"/>
+					<Add directory="/usr/local/Cellar/llvm/6.0.1/include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/6.0.1/lib/clang/6.0.1/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 udpserver/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geologger_test">
+				<Option output="/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/test/geologger_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/me/Documents/Workspace/Cpp/Geologger/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/me/Documents/libaries/googletest-release-1.8.1/include"/>
+					<Add directory="/Users/me/Documents/Workspace/Cpp/Geologger/server"/>
+					<Add directory="/usr/local/Cellar/llvm/6.0.1/include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/6.0.1/lib/clang/6.0.1/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 geologger_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geologger_test/fast">
+				<Option output="/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/test/geologger_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/me/Documents/Workspace/Cpp/Geologger/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/me/Documents/libaries/googletest-release-1.8.1/include"/>
+					<Add directory="/Users/me/Documents/Workspace/Cpp/Geologger/server"/>
+					<Add directory="/usr/local/Cellar/llvm/6.0.1/include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/6.0.1/lib/clang/6.0.1/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 geologger_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/me/Documents/Workspace/Cpp/Geologger/main.cpp">
+			<Option target="Geologger"/>
+		</Unit>
+		<Unit filename="/Users/me/Documents/Workspace/Cpp/Geologger/server/udp_server.cpp">
+			<Option target="udpserver"/>
+		</Unit>
+		<Unit filename="/Users/me/Documents/Workspace/Cpp/Geologger/server/udp_server.h">
+			<Option target="udpserver"/>
+		</Unit>
+		<Unit filename="/Users/me/Documents/Workspace/Cpp/Geologger/test/GtestTest.cpp">
+			<Option target="geologger_test"/>
+		</Unit>
+		<Unit filename="/Users/me/Documents/Workspace/Cpp/Geologger/test/SocketTest.cpp">
+			<Option target="geologger_test"/>
+		</Unit>
+		<Unit filename="/Users/me/Documents/Workspace/Cpp/Geologger/test/ThreadTest.cpp">
+			<Option target="geologger_test"/>
+		</Unit>
+		<Unit filename="/Users/me/Documents/Workspace/Cpp/Geologger/test/main.cpp">
+			<Option target="geologger_test"/>
+		</Unit>
+		<Unit filename="/Users/me/Documents/Workspace/Cpp/Geologger/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/me/Documents/Workspace/Cpp/Geologger/server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\"/>
+		</Unit>
+		<Unit filename="/Users/me/Documents/Workspace/Cpp/Geologger/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
