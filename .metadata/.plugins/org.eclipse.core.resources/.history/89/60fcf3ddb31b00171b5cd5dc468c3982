@@ -1,0 +1,21 @@
+/*
+ * Example1.h
+ *
+ *  Created on: 07.04.2017
+ *      Author: me
+ */
+
+#ifndef EXAMPLE1_H_
+#define EXAMPLE1_H_
+
+namespace opencvtest {
+
+class Example1 {
+public:
+	Example1();
+	virtual ~Example1();
+};
+
+} /* namespace opencvtest */
+
+#endif /* EXAMPLE1_H_ */

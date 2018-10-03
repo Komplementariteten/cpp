@@ -1,0 +1,28 @@
+/*
+ * SVMExample.h
+ *
+ *  Created on: 08.04.2017
+ *      Author: me
+ */
+
+#ifndef SVMEXAMPLE_H_
+#define SVMEXAMPLE_H_
+
+#include <opencv2/core.hpp>
+#include <opencv2/imgproc.hpp>
+#include <opencv2/imgcodecs.hpp>
+#include <opencv2/highgui.hpp>
+#include <opencv2/ml.hpp>
+
+namespace opencvtest {
+
+class SVMExample {
+public:
+	SVMExample();
+	virtual ~SVMExample();
+	void Sample1();
+};
+
+} /* namespace opencvtest */
+
+#endif /* SVMEXAMPLE_H_ */

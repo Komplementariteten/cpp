@@ -1,0 +1,13 @@
+16:35:40 **** Build of configuration Debug for project OpenCVExample ****
+make all 
+Building file: ../src/OpenCVExample.cpp
+Invoking: Cross G++ Compiler
+g++ -I/Users/me/Documents/Workspace/Cpp/3rdParty/src/opencv-3.2.0/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/OpenCVExample.d" -MT"src/OpenCVExample.o" -o "src/OpenCVExample.o" "../src/OpenCVExample.cpp"
+../src/OpenCVExample.cpp:10:10: fatal error: 'opencv2/core.hpp' file not found
+#include <opencv2/core.hpp>
+         ^
+1 error generated.
+make: *** [src/OpenCVExample.o] Error 1
+
+16:35:41 Build Finished (took 921ms)
+

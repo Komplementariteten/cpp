@@ -1,0 +1,21 @@
+/*
+ * SVMExample.cpp
+ *
+ *  Created on: 08.04.2017
+ *      Author: me
+ */
+
+#include "SVMExample.h"
+
+namespace opencvtest {
+
+SVMExample::SVMExample() {
+	// TODO Auto-generated constructor stub
+
+}
+
+SVMExample::~SVMExample() {
+	// TODO Auto-generated destructor stub
+}
+
+} /* namespace opencvtest */

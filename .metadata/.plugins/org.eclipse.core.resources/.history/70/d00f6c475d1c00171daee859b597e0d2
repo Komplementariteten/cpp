@@ -1,0 +1,97 @@
+/*
+ * SVMExample.cpp
+ *
+ *  Created on: 08.04.2017
+ *      Author: me
+ */
+
+#include "SVMExample.h"
+
+namespace opencvtest {
+using namespace cv;
+using namespace cv::ml;
+
+SVMExample::SVMExample() {
+	// TODO Auto-generated constructor stub
+
+}
+
+SVMExample::~SVMExample() {
+	// TODO Auto-generated destructor stub
+}
+
+Mat SVMExample::getWebcamImage(){
+	Mat sample;
+	VideoCapture cap(0);
+	if(!cap.isOpened())
+		return sample;
+	cap >> sample;
+	return sample;
+}
+
+void SVMExample::Sample2(){
+	Mat sample;
+	VideoCapture cap(0);
+	if(!cap.isOpened())
+		return;
+	cap >> sample;
+	sample.convertTo(sample, CV_32F, 1/255.0);
+	Mat gx, gy;
+	Sobel(sample, gx, CV_32F, 1, 0, 1);
+	Sobel(sample, gy, CV_32F, 0, 1, 1);
+
+	Mat mag, angle;
+	cartToPolar(gx, gy, mag, angle, 1);
+	imshow("Magnitude" , sample);
+	waitKey(0);
+}
+
+void SVMExample::Sample1(){
+	// Data for visual representation
+	    int width = 512, height = 512;
+	    Mat image = Mat::zeros(height, width, CV_8UC3);
+	    // Set up training data
+	    int labels[4] = {1, -1, -1, -1};
+	    float trainingData[4][2] = { {501, 10}, {255, 10}, {501, 255}, {10, 501} };
+	    Mat trainingDataMat(4, 2, CV_32FC1, trainingData);
+	    Mat labelsMat(4, 1, CV_32SC1, labels);
+	    // Train the SVM
+	    Ptr<SVM> svm = SVM::create();
+	    svm->setType(SVM::C_SVC);
+	    svm->setKernel(SVM::LINEAR);
+	    svm->setTermCriteria(TermCriteria(TermCriteria::MAX_ITER, 100, 1e-6));
+	    svm->train(trainingDataMat, ROW_SAMPLE, labelsMat);
+	    // Show the decision regions given by the SVM
+	    Vec3b green(0,255,0), blue (255,0,0);
+	    for (int i = 0; i < image.rows; ++i)
+	        for (int j = 0; j < image.cols; ++j)
+	        {
+	            Mat sampleMat = (Mat_<float>(1,2) << j,i);
+	            float response = svm->predict(sampleMat);
+	            if (response == 1)
+	                image.at<Vec3b>(i,j)  = green;
+	            else if (response == -1)
+	                image.at<Vec3b>(i,j)  = blue;
+	        }
+	    // Show the training data
+	    int thickness = -1;
+	    int lineType = 8;
+	    circle( image, Point(501,  10), 5, Scalar(  0,   0,   0), thickness, lineType );
+	    circle( image, Point(255,  10), 5, Scalar(255, 255, 255), thickness, lineType );
+	    circle( image, Point(501, 255), 5, Scalar(255, 255, 255), thickness, lineType );
+	    circle( image, Point( 10, 501), 5, Scalar(255, 255, 255), thickness, lineType );
+	    // Show support vectors
+	    thickness = 2;
+	    lineType  = 8;
+	    Mat sv = svm->getUncompressedSupportVectors();
+	    for (int i = 0; i < sv.rows; ++i)
+	    {
+	        const float* v = sv.ptr<float>(i);
+	        circle( image,  Point( (int) v[0], (int) v[1]),   6,  Scalar(128, 128, 128), thickness, lineType);
+	    }
+	    imwrite("result.png", image);        // save the image
+	    imshow("SVM Simple Example", image); // show it to the user
+	    waitKey(0);
+}
+
+} /* namespace opencvtest */

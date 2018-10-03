@@ -1,0 +1,8 @@
+#include "Example1.h"
+
+int main(int argc, char **argv) {
+	using namespace opencvtest;
+	Example1 ex1;
+	ex1.OpenWebcam();
+	return 0;
+}
