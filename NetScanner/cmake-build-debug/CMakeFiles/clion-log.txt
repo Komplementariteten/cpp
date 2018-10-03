@@ -1,0 +1,5 @@
+"/Users/me/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.5540.8/CLion.app/Contents/bin/cmake/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/me/Documents/Workspace/GitHub/Cpp/NetScanner
+-- Boost version: 1.66.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/me/Documents/Workspace/GitHub/Cpp/NetScanner/cmake-build-debug
