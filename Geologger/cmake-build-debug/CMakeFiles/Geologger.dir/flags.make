@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/Ma
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include -I/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/server 
+CXX_INCLUDES = -I/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include -I/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb/include -I/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/server 
 

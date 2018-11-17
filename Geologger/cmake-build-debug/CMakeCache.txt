@@ -330,6 +330,15 @@ Geologger_Test_SOURCE_DIR:STATIC=/Users/me/Documents/Workspace/GitHub/Cpp/Geolog
 // may want to turn this OFF.)
 INSTALL_GTEST:BOOL=ON
 
+//Build LevelDB's benchmarks
+LEVELDB_BUILD_BENCHMARKS:BOOL=ON
+
+//Build LevelDB's unit tests
+LEVELDB_BUILD_TESTS:BOOL=ON
+
+//Install LevelDB's header and library
+LEVELDB_INSTALL:BOOL=ON
+
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=/usr/local/bin/python
 
@@ -390,6 +399,12 @@ gtest_hide_internal_symbols:BOOL=OFF
 
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
+
+//Value Computed by CMake
+leveldb_BINARY_DIR:STATIC=/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb
+
+//Value Computed by CMake
+leveldb_SOURCE_DIR:STATIC=/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb
 
 
 ########################
@@ -550,7 +565,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -571,6 +586,8 @@ CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_SHARED_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//CHECK_TYPE_SIZE: sizeof(unsigned short)
+CMAKE_SIZEOF_UNSIGNED_SHORT:INTERNAL=2
 //ADVANCED property for variable: CMAKE_SKIP_INSTALL_RPATH
 CMAKE_SKIP_INSTALL_RPATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SKIP_RPATH
@@ -595,6 +612,36 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/local/bin/python][v2.7.15()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Test HAVE_CLANG_THREAD_SAFETY
+HAVE_CLANG_THREAD_SAFETY:INTERNAL=1
+//Result of TRY_COMPILE
+HAVE_CMAKE_SIZEOF_UNSIGNED_SHORT:INTERNAL=TRUE
+//Have library crc32c
+HAVE_CRC32C:INTERNAL=
+//Test HAVE_CXX17_HAS_INCLUDE
+HAVE_CXX17_HAS_INCLUDE:INTERNAL=
+//Have symbol fdatasync
+HAVE_FDATASYNC:INTERNAL=
+//Test HAVE_KYOTOCABINET
+HAVE_KYOTOCABINET:INTERNAL=
+//Result of TRY_COMPILE
+HAVE_LEVELDB_IS_BIG_ENDIAN:INTERNAL=TRUE
+//Have library snappy
+HAVE_SNAPPY:INTERNAL=
+//Have library sqlite3
+HAVE_SQLITE3:INTERNAL=1
+//Have include stddef.h
+HAVE_STDDEF_H:INTERNAL=1
+//Have include stdint.h
+HAVE_STDINT_H:INTERNAL=1
+//Have include sys/types.h
+HAVE_SYS_TYPES_H:INTERNAL=1
+//Have library tcmalloc
+HAVE_TCMALLOC:INTERNAL=
+//Have include unistd.h
+HAVE_UNISTD_H:INTERNAL=1
+//Result of TEST_BIG_ENDIAN
+LEVELDB_IS_BIG_ENDIAN:INTERNAL=0
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ProcessorCount_cmd_sysctl

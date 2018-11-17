@@ -10,6 +10,12 @@ file(GLOB UTIL_FILES ${CMAKE_SOURCE_DIR}/util/*.h)
 set(SOURCE_FILES ${HEADERS} ${UTIL_FILES})
 
 add_executable(Geologger main.cpp ${HEADERS})
+
+# Extern Global Libaries
+add_subdirectory(ext/leveldb)
+include_directories(ext/leveldb/include)
+
+
 add_subdirectory(server)
 add_subdirectory(test)
 

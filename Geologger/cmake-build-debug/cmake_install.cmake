@@ -44,6 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/cmake_install.cmake")
   include("/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/server/cmake_install.cmake")
   include("/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/test/cmake_install.cmake")
 

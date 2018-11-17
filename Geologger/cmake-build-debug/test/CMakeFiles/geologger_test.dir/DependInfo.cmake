@@ -22,6 +22,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
+  "../ext/leveldb/include"
   "/usr/local/include"
   "/Users/me/Documents/libaries/leveldb/include"
   "../server"
@@ -36,6 +37,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/server/CMakeFiles/udpserver.dir/DependInfo.cmake"
+  "/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/CMakeFiles/leveldb.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
