@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/me/Documents/Workspace/Cpp/Geologger/server/udp_server.cpp
+/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/server/udp_server.cpp
 udp_server.h
-/Users/me/Documents/Workspace/Cpp/Geologger/server/udp_server.h
+/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/server/udp_server.h
 
-/Users/me/Documents/Workspace/Cpp/Geologger/server/udp_server.h
+/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/server/udp_server.h
 boost/array.hpp
 -
 boost/bind.hpp

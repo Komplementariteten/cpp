@@ -5,7 +5,11 @@ set(CMAKE_CXX_STANDARD 17)
 
 include_directories(include)
 
-add_executable(Geologger main.cpp)
+file(GLOB UTIL_FILES ${CMAKE_SOURCE_DIR}/util/*.h)
+
+set(SOURCE_FILES ${HEADERS} ${UTIL_FILES})
+
+add_executable(Geologger main.cpp ${HEADERS})
 add_subdirectory(server)
 add_subdirectory(test)
 

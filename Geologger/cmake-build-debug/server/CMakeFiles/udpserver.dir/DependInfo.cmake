@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/me/Documents/Workspace/Cpp/Geologger/server/udp_server.cpp" "/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server/CMakeFiles/udpserver.dir/udp_server.cpp.o"
+  "/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/server/udp_server.cpp" "/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/server/CMakeFiles/udpserver.dir/udp_server.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

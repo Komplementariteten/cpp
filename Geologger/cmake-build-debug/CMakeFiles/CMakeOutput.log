@@ -1,6 +1,6 @@
-The system is: Darwin - 17.7.0 - x86_64
+The system is: Darwin - 18.2.0 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/local/Cellar/llvm/6.0.1/bin/clang 
+Compiler: /usr/local/Cellar/llvm/7.0.0/bin/clang 
 Build flags: 
 Id flags:  
 
@@ -10,10 +10,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is Clang, found in "/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/a.out"
+The C compiler identification is Clang, found in "/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/3.12.4/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/local/Cellar/llvm/6.0.1/bin/clang++ 
+Compiler: /usr/local/Cellar/llvm/7.0.0/bin/clang 
 Build flags: 
 Id flags:  
 
@@ -23,104 +23,102 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is Clang, found in "/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/a.out"
+The CXX compiler identification is Clang, found in "/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/3.12.4/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0b596/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0b596.dir/build.make CMakeFiles/cmTC_0b596.dir/build
-Building C object CMakeFiles/cmTC_0b596.dir/testCCompiler.c.o
-/usr/local/Cellar/llvm/6.0.1/bin/clang    -o CMakeFiles/cmTC_0b596.dir/testCCompiler.c.o   -c /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_0b596
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b596.dir/link.txt --verbose=1
-/usr/local/Cellar/llvm/6.0.1/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0b596.dir/testCCompiler.c.o  -o cmTC_0b596 
+Run Build Command:"/usr/bin/make" "cmTC_f2dee/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f2dee.dir/build.make CMakeFiles/cmTC_f2dee.dir/build
+Building C object CMakeFiles/cmTC_f2dee.dir/testCCompiler.c.o
+/usr/local/Cellar/llvm/7.0.0/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_f2dee.dir/testCCompiler.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f2dee
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2dee.dir/link.txt --verbose=1
+/usr/local/Cellar/llvm/7.0.0/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f2dee.dir/testCCompiler.c.o  -o cmTC_f2dee 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_55f57/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_55f57.dir/build.make CMakeFiles/cmTC_55f57.dir/build
-Building C object CMakeFiles/cmTC_55f57.dir/CMakeCCompilerABI.c.o
-/usr/local/Cellar/llvm/6.0.1/bin/clang    -o CMakeFiles/cmTC_55f57.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.12.0/share/cmake/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_55f57
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55f57.dir/link.txt --verbose=1
-/usr/local/Cellar/llvm/6.0.1/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_55f57.dir/CMakeCCompilerABI.c.o  -o cmTC_55f57 
-clang version 6.0.1 (tags/RELEASE_601/final)
-Target: x86_64-apple-darwin17.7.0
+Run Build Command:"/usr/bin/make" "cmTC_0380d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0380d.dir/build.make CMakeFiles/cmTC_0380d.dir/build
+Building C object CMakeFiles/cmTC_0380d.dir/CMakeCCompilerABI.c.o
+/usr/local/Cellar/llvm/7.0.0/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_0380d.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.12.4/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_0380d
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0380d.dir/link.txt --verbose=1
+/usr/local/Cellar/llvm/7.0.0/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_0380d.dir/CMakeCCompilerABI.c.o  -o cmTC_0380d 
+clang version 7.0.0 (tags/RELEASE_700/final)
+Target: x86_64-apple-darwin18.2.0
 Thread model: posix
-InstalledDir: /usr/local/Cellar/llvm/6.0.1/bin
- "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/6.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_55f57 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_55f57.dir/CMakeCCompilerABI.c.o -lSystem /usr/local/Cellar/llvm/6.0.1/lib/clang/6.0.1/lib/darwin/libclang_rt.osx.a
+InstalledDir: /usr/local/Cellar/llvm/7.0.0/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/7.0.0/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -o cmTC_0380d -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_0380d.dir/CMakeCCompilerABI.c.o -lSystem /usr/local/Cellar/llvm/7.0.0/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-409.12
-BUILD 02:04:28 Aug 14 2018
+BUILD 17:47:51 Sep 25 2018
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em arm64e arm64_32
 Library search paths:
-	/usr/lib
-	/usr/local/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib
 Framework search paths:
-	/Library/Frameworks/
-	/System/Library/Frameworks/
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_55f57/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_55f57.dir/build.make CMakeFiles/cmTC_55f57.dir/build]
-  ignore line: [Building C object CMakeFiles/cmTC_55f57.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/local/Cellar/llvm/6.0.1/bin/clang    -o CMakeFiles/cmTC_55f57.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.12.0/share/cmake/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_55f57]
-  ignore line: [/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55f57.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/Cellar/llvm/6.0.1/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_55f57.dir/CMakeCCompilerABI.c.o  -o cmTC_55f57 ]
-  ignore line: [clang version 6.0.1 (tags/RELEASE_601/final)]
-  ignore line: [Target: x86_64-apple-darwin17.7.0]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0380d/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0380d.dir/build.make CMakeFiles/cmTC_0380d.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_0380d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/Cellar/llvm/7.0.0/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_0380d.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.12.4/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_0380d]
+  ignore line: [/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0380d.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/Cellar/llvm/7.0.0/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_0380d.dir/CMakeCCompilerABI.c.o  -o cmTC_0380d ]
+  ignore line: [clang version 7.0.0 (tags/RELEASE_700/final)]
+  ignore line: [Target: x86_64-apple-darwin18.2.0]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /usr/local/Cellar/llvm/6.0.1/bin]
-  link line: [ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/6.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_55f57 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_55f57.dir/CMakeCCompilerABI.c.o -lSystem /usr/local/Cellar/llvm/6.0.1/lib/clang/6.0.1/lib/darwin/libclang_rt.osx.a]
+  ignore line: [InstalledDir: /usr/local/Cellar/llvm/7.0.0/bin]
+  link line: [ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/7.0.0/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -o cmTC_0380d -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_0380d.dir/CMakeCCompilerABI.c.o -lSystem /usr/local/Cellar/llvm/7.0.0/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
     arg [/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
-    arg [/usr/local/Cellar/llvm/6.0.1/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [/usr/local/Cellar/llvm/7.0.0/lib/libLTO.dylib] ==> skip value of -lto_library
     arg [-dynamic] ==> ignore
     arg [-arch] ==> ignore
     arg [x86_64] ==> ignore
     arg [-macosx_version_min] ==> ignore
-    arg [10.13.0] ==> ignore
+    arg [10.14.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_55f57] ==> ignore
+    arg [cmTC_0380d] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_55f57.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_0380d.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lSystem] ==> lib [System]
-    arg [/usr/local/Cellar/llvm/6.0.1/lib/clang/6.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/usr/local/Cellar/llvm/6.0.1/lib/clang/6.0.1/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/usr/lib;/usr/local/lib]
-  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+    arg [/usr/local/Cellar/llvm/7.0.0/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/usr/local/Cellar/llvm/7.0.0/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
   remove lib [System]
-  remove lib [/usr/local/Cellar/llvm/6.0.1/lib/clang/6.0.1/lib/darwin/libclang_rt.osx.a]
-  collapse library dir [/usr/lib] ==> [/usr/lib]
-  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
-  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
-  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  remove lib [/usr/local/Cellar/llvm/7.0.0/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
   implicit libs: []
-  implicit dirs: [/usr/lib;/usr/local/lib]
-  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6cbe1/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6cbe1.dir/build.make CMakeFiles/cmTC_6cbe1.dir/build
-Building C object CMakeFiles/cmTC_6cbe1.dir/feature_tests.c.o
-/usr/local/Cellar/llvm/6.0.1/bin/clang   -std=c11 -o CMakeFiles/cmTC_6cbe1.dir/feature_tests.c.o   -c /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6cbe1
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cbe1.dir/link.txt --verbose=1
-/usr/local/Cellar/llvm/6.0.1/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6cbe1.dir/feature_tests.c.o  -o cmTC_6cbe1 
+Run Build Command:"/usr/bin/make" "cmTC_ea126/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ea126.dir/build.make CMakeFiles/cmTC_ea126.dir/build
+Building C object CMakeFiles/cmTC_ea126.dir/feature_tests.c.o
+/usr/local/Cellar/llvm/7.0.0/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c11 -o CMakeFiles/cmTC_ea126.dir/feature_tests.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ea126
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea126.dir/link.txt --verbose=1
+/usr/local/Cellar/llvm/7.0.0/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ea126.dir/feature_tests.c.o  -o cmTC_ea126 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -130,15 +128,15 @@ Linking C executable cmTC_6cbe1
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b911a/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b911a.dir/build.make CMakeFiles/cmTC_b911a.dir/build
-Building C object CMakeFiles/cmTC_b911a.dir/feature_tests.c.o
-/usr/local/Cellar/llvm/6.0.1/bin/clang   -std=c99 -o CMakeFiles/cmTC_b911a.dir/feature_tests.c.o   -c /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b911a
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b911a.dir/link.txt --verbose=1
-/usr/local/Cellar/llvm/6.0.1/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b911a.dir/feature_tests.c.o  -o cmTC_b911a 
+Run Build Command:"/usr/bin/make" "cmTC_745de/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_745de.dir/build.make CMakeFiles/cmTC_745de.dir/build
+Building C object CMakeFiles/cmTC_745de.dir/feature_tests.c.o
+/usr/local/Cellar/llvm/7.0.0/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c99 -o CMakeFiles/cmTC_745de.dir/feature_tests.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_745de
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_745de.dir/link.txt --verbose=1
+/usr/local/Cellar/llvm/7.0.0/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_745de.dir/feature_tests.c.o  -o cmTC_745de 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -148,15 +146,15 @@ Linking C executable cmTC_b911a
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1f242/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1f242.dir/build.make CMakeFiles/cmTC_1f242.dir/build
-Building C object CMakeFiles/cmTC_1f242.dir/feature_tests.c.o
-/usr/local/Cellar/llvm/6.0.1/bin/clang   -std=c90 -o CMakeFiles/cmTC_1f242.dir/feature_tests.c.o   -c /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1f242
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f242.dir/link.txt --verbose=1
-/usr/local/Cellar/llvm/6.0.1/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1f242.dir/feature_tests.c.o  -o cmTC_1f242 
+Run Build Command:"/usr/bin/make" "cmTC_1b592/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1b592.dir/build.make CMakeFiles/cmTC_1b592.dir/build
+Building C object CMakeFiles/cmTC_1b592.dir/feature_tests.c.o
+/usr/local/Cellar/llvm/7.0.0/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c90 -o CMakeFiles/cmTC_1b592.dir/feature_tests.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1b592
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b592.dir/link.txt --verbose=1
+/usr/local/Cellar/llvm/7.0.0/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1b592.dir/feature_tests.c.o  -o cmTC_1b592 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -164,102 +162,99 @@ Linking C executable cmTC_1f242
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c7548/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c7548.dir/build.make CMakeFiles/cmTC_c7548.dir/build
-Building CXX object CMakeFiles/cmTC_c7548.dir/testCXXCompiler.cxx.o
-/usr/local/Cellar/llvm/6.0.1/bin/clang++     -o CMakeFiles/cmTC_c7548.dir/testCXXCompiler.cxx.o -c /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_c7548
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7548.dir/link.txt --verbose=1
-/usr/local/Cellar/llvm/6.0.1/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c7548.dir/testCXXCompiler.cxx.o  -o cmTC_c7548 
+Run Build Command:"/usr/bin/make" "cmTC_feb9f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_feb9f.dir/build.make CMakeFiles/cmTC_feb9f.dir/build
+Building CXX object CMakeFiles/cmTC_feb9f.dir/testCXXCompiler.cxx.o
+/usr/local/Cellar/llvm/7.0.0/bin/clang    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_feb9f.dir/testCXXCompiler.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_feb9f
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_feb9f.dir/link.txt --verbose=1
+/usr/local/Cellar/llvm/7.0.0/bin/clang    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_feb9f.dir/testCXXCompiler.cxx.o  -o cmTC_feb9f 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2e04f/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2e04f.dir/build.make CMakeFiles/cmTC_2e04f.dir/build
-Building CXX object CMakeFiles/cmTC_2e04f.dir/CMakeCXXCompilerABI.cpp.o
-/usr/local/Cellar/llvm/6.0.1/bin/clang++     -o CMakeFiles/cmTC_2e04f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.12.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_2e04f
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e04f.dir/link.txt --verbose=1
-/usr/local/Cellar/llvm/6.0.1/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_2e04f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2e04f 
-clang version 6.0.1 (tags/RELEASE_601/final)
-Target: x86_64-apple-darwin17.7.0
+Run Build Command:"/usr/bin/make" "cmTC_00ac2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_00ac2.dir/build.make CMakeFiles/cmTC_00ac2.dir/build
+Building CXX object CMakeFiles/cmTC_00ac2.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/Cellar/llvm/7.0.0/bin/clang    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_00ac2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.12.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_00ac2
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00ac2.dir/link.txt --verbose=1
+/usr/local/Cellar/llvm/7.0.0/bin/clang    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_00ac2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_00ac2 
+clang version 7.0.0 (tags/RELEASE_700/final)
+Target: x86_64-apple-darwin18.2.0
 Thread model: posix
-InstalledDir: /usr/local/Cellar/llvm/6.0.1/bin
- "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/6.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_2e04f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2e04f.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /usr/local/Cellar/llvm/6.0.1/lib/clang/6.0.1/lib/darwin/libclang_rt.osx.a
+InstalledDir: /usr/local/Cellar/llvm/7.0.0/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/7.0.0/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -o cmTC_00ac2 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_00ac2.dir/CMakeCXXCompilerABI.cpp.o -lSystem /usr/local/Cellar/llvm/7.0.0/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-409.12
-BUILD 02:04:28 Aug 14 2018
+BUILD 17:47:51 Sep 25 2018
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em arm64e arm64_32
 Library search paths:
-	/usr/lib
-	/usr/local/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib
 Framework search paths:
-	/Library/Frameworks/
-	/System/Library/Frameworks/
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2e04f/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2e04f.dir/build.make CMakeFiles/cmTC_2e04f.dir/build]
-  ignore line: [Building CXX object CMakeFiles/cmTC_2e04f.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/local/Cellar/llvm/6.0.1/bin/clang++     -o CMakeFiles/cmTC_2e04f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.12.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_2e04f]
-  ignore line: [/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e04f.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/Cellar/llvm/6.0.1/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_2e04f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2e04f ]
-  ignore line: [clang version 6.0.1 (tags/RELEASE_601/final)]
-  ignore line: [Target: x86_64-apple-darwin17.7.0]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_00ac2/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_00ac2.dir/build.make CMakeFiles/cmTC_00ac2.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_00ac2.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/Cellar/llvm/7.0.0/bin/clang    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_00ac2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.12.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_00ac2]
+  ignore line: [/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00ac2.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/Cellar/llvm/7.0.0/bin/clang    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_00ac2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_00ac2 ]
+  ignore line: [clang version 7.0.0 (tags/RELEASE_700/final)]
+  ignore line: [Target: x86_64-apple-darwin18.2.0]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /usr/local/Cellar/llvm/6.0.1/bin]
-  link line: [ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/6.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_2e04f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2e04f.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /usr/local/Cellar/llvm/6.0.1/lib/clang/6.0.1/lib/darwin/libclang_rt.osx.a]
+  ignore line: [InstalledDir: /usr/local/Cellar/llvm/7.0.0/bin]
+  link line: [ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/7.0.0/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -o cmTC_00ac2 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_00ac2.dir/CMakeCXXCompilerABI.cpp.o -lSystem /usr/local/Cellar/llvm/7.0.0/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
     arg [/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
-    arg [/usr/local/Cellar/llvm/6.0.1/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [/usr/local/Cellar/llvm/7.0.0/lib/libLTO.dylib] ==> skip value of -lto_library
     arg [-dynamic] ==> ignore
     arg [-arch] ==> ignore
     arg [x86_64] ==> ignore
     arg [-macosx_version_min] ==> ignore
-    arg [10.13.0] ==> ignore
+    arg [10.14.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2e04f] ==> ignore
+    arg [cmTC_00ac2] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_2e04f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-    arg [-lc++] ==> lib [c++]
+    arg [CMakeFiles/cmTC_00ac2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lSystem] ==> lib [System]
-    arg [/usr/local/Cellar/llvm/6.0.1/lib/clang/6.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/usr/local/Cellar/llvm/6.0.1/lib/clang/6.0.1/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/usr/lib;/usr/local/lib]
-  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+    arg [/usr/local/Cellar/llvm/7.0.0/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/usr/local/Cellar/llvm/7.0.0/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
   remove lib [System]
-  remove lib [/usr/local/Cellar/llvm/6.0.1/lib/clang/6.0.1/lib/darwin/libclang_rt.osx.a]
-  collapse library dir [/usr/lib] ==> [/usr/lib]
-  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
-  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
-  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
-  implicit libs: [c++]
-  implicit dirs: [/usr/lib;/usr/local/lib]
-  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+  remove lib [/usr/local/Cellar/llvm/7.0.0/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
 
 
 
 
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
-Change Dir: /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_130c9/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_130c9.dir/build.make CMakeFiles/cmTC_130c9.dir/build
-Building CXX object CMakeFiles/cmTC_130c9.dir/feature_tests.cxx.o
-/usr/local/Cellar/llvm/6.0.1/bin/clang++    -std=c++2a -o CMakeFiles/cmTC_130c9.dir/feature_tests.cxx.o -c /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_130c9
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_130c9.dir/link.txt --verbose=1
-/usr/local/Cellar/llvm/6.0.1/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_130c9.dir/feature_tests.cxx.o  -o cmTC_130c9 
+Run Build Command:"/usr/bin/make" "cmTC_ce5fd/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ce5fd.dir/build.make CMakeFiles/cmTC_ce5fd.dir/build
+Building CXX object CMakeFiles/cmTC_ce5fd.dir/feature_tests.cxx.o
+/usr/local/Cellar/llvm/7.0.0/bin/clang    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++2a -o CMakeFiles/cmTC_ce5fd.dir/feature_tests.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ce5fd
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce5fd.dir/link.txt --verbose=1
+/usr/local/Cellar/llvm/7.0.0/bin/clang    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ce5fd.dir/feature_tests.cxx.o  -o cmTC_ce5fd 
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -322,15 +317,15 @@ Linking CXX executable cmTC_130c9
 
 
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
-Change Dir: /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_69105/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_69105.dir/build.make CMakeFiles/cmTC_69105.dir/build
-Building CXX object CMakeFiles/cmTC_69105.dir/feature_tests.cxx.o
-/usr/local/Cellar/llvm/6.0.1/bin/clang++    -std=c++17 -o CMakeFiles/cmTC_69105.dir/feature_tests.cxx.o -c /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_69105
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69105.dir/link.txt --verbose=1
-/usr/local/Cellar/llvm/6.0.1/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_69105.dir/feature_tests.cxx.o  -o cmTC_69105 
+Run Build Command:"/usr/bin/make" "cmTC_cf210/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cf210.dir/build.make CMakeFiles/cmTC_cf210.dir/build
+Building CXX object CMakeFiles/cmTC_cf210.dir/feature_tests.cxx.o
+/usr/local/Cellar/llvm/7.0.0/bin/clang    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++17 -o CMakeFiles/cmTC_cf210.dir/feature_tests.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_cf210
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf210.dir/link.txt --verbose=1
+/usr/local/Cellar/llvm/7.0.0/bin/clang    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cf210.dir/feature_tests.cxx.o  -o cmTC_cf210 
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -393,15 +388,15 @@ Linking CXX executable cmTC_69105
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d8afe/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d8afe.dir/build.make CMakeFiles/cmTC_d8afe.dir/build
-Building CXX object CMakeFiles/cmTC_d8afe.dir/feature_tests.cxx.o
-/usr/local/Cellar/llvm/6.0.1/bin/clang++    -std=c++14 -o CMakeFiles/cmTC_d8afe.dir/feature_tests.cxx.o -c /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d8afe
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8afe.dir/link.txt --verbose=1
-/usr/local/Cellar/llvm/6.0.1/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d8afe.dir/feature_tests.cxx.o  -o cmTC_d8afe 
+Run Build Command:"/usr/bin/make" "cmTC_bce67/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bce67.dir/build.make CMakeFiles/cmTC_bce67.dir/build
+Building CXX object CMakeFiles/cmTC_bce67.dir/feature_tests.cxx.o
+/usr/local/Cellar/llvm/7.0.0/bin/clang    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++14 -o CMakeFiles/cmTC_bce67.dir/feature_tests.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bce67
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bce67.dir/link.txt --verbose=1
+/usr/local/Cellar/llvm/7.0.0/bin/clang    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bce67.dir/feature_tests.cxx.o  -o cmTC_bce67 
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -464,15 +459,15 @@ Linking CXX executable cmTC_d8afe
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9e31c/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9e31c.dir/build.make CMakeFiles/cmTC_9e31c.dir/build
-Building CXX object CMakeFiles/cmTC_9e31c.dir/feature_tests.cxx.o
-/usr/local/Cellar/llvm/6.0.1/bin/clang++    -std=c++11 -o CMakeFiles/cmTC_9e31c.dir/feature_tests.cxx.o -c /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9e31c
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e31c.dir/link.txt --verbose=1
-/usr/local/Cellar/llvm/6.0.1/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9e31c.dir/feature_tests.cxx.o  -o cmTC_9e31c 
+Run Build Command:"/usr/bin/make" "cmTC_12a73/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_12a73.dir/build.make CMakeFiles/cmTC_12a73.dir/build
+Building CXX object CMakeFiles/cmTC_12a73.dir/feature_tests.cxx.o
+/usr/local/Cellar/llvm/7.0.0/bin/clang    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_12a73.dir/feature_tests.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_12a73
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12a73.dir/link.txt --verbose=1
+/usr/local/Cellar/llvm/7.0.0/bin/clang    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_12a73.dir/feature_tests.cxx.o  -o cmTC_12a73 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -535,15 +530,15 @@ Linking CXX executable cmTC_9e31c
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_22ce9/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_22ce9.dir/build.make CMakeFiles/cmTC_22ce9.dir/build
-Building CXX object CMakeFiles/cmTC_22ce9.dir/feature_tests.cxx.o
-/usr/local/Cellar/llvm/6.0.1/bin/clang++    -std=c++98 -o CMakeFiles/cmTC_22ce9.dir/feature_tests.cxx.o -c /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_22ce9
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22ce9.dir/link.txt --verbose=1
-/usr/local/Cellar/llvm/6.0.1/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_22ce9.dir/feature_tests.cxx.o  -o cmTC_22ce9 
+Run Build Command:"/usr/bin/make" "cmTC_1bf8e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1bf8e.dir/build.make CMakeFiles/cmTC_1bf8e.dir/build
+Building CXX object CMakeFiles/cmTC_1bf8e.dir/feature_tests.cxx.o
+/usr/local/Cellar/llvm/7.0.0/bin/clang    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++98 -o CMakeFiles/cmTC_1bf8e.dir/feature_tests.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1bf8e
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bf8e.dir/link.txt --verbose=1
+/usr/local/Cellar/llvm/7.0.0/bin/clang    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1bf8e.dir/feature_tests.cxx.o  -o cmTC_1bf8e 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -603,3 +598,41 @@ Linking CXX executable cmTC_22ce9
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a41a4/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a41a4.dir/build.make CMakeFiles/cmTC_a41a4.dir/build
+Building C object CMakeFiles/cmTC_a41a4.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/llvm/7.0.0/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_a41a4.dir/CheckIncludeFile.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a41a4
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a41a4.dir/link.txt --verbose=1
+/usr/local/Cellar/llvm/7.0.0/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a41a4.dir/CheckIncludeFile.c.o  -o cmTC_a41a4 
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce65c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ce65c.dir/build.make CMakeFiles/cmTC_ce65c.dir/build
+Building C object CMakeFiles/cmTC_ce65c.dir/CheckSymbolExists.c.o
+/usr/local/Cellar/llvm/7.0.0/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_ce65c.dir/CheckSymbolExists.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ce65c
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce65c.dir/link.txt --verbose=1
+/usr/local/Cellar/llvm/7.0.0/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ce65c.dir/CheckSymbolExists.c.o  -o cmTC_ce65c 
+
+File /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

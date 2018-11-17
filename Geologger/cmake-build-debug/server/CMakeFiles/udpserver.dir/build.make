@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.12.0/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.12.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.12.0/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.12.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/me/Documents/Workspace/Cpp/Geologger
+CMAKE_SOURCE_DIR = /Users/me/Documents/Workspace/GitHub/Cpp/Geologger
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include server/CMakeFiles/udpserver.dir/depend.make
@@ -59,16 +59,16 @@ include server/CMakeFiles/udpserver.dir/flags.make
 
 server/CMakeFiles/udpserver.dir/udp_server.cpp.o: server/CMakeFiles/udpserver.dir/flags.make
 server/CMakeFiles/udpserver.dir/udp_server.cpp.o: ../server/udp_server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object server/CMakeFiles/udpserver.dir/udp_server.cpp.o"
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server && /usr/local/Cellar/llvm/6.0.1/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/udpserver.dir/udp_server.cpp.o -c /Users/me/Documents/Workspace/Cpp/Geologger/server/udp_server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object server/CMakeFiles/udpserver.dir/udp_server.cpp.o"
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/server && /usr/local/Cellar/llvm/7.0.0/bin/clang  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/udpserver.dir/udp_server.cpp.o -c /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/server/udp_server.cpp
 
 server/CMakeFiles/udpserver.dir/udp_server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/udpserver.dir/udp_server.cpp.i"
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server && /usr/local/Cellar/llvm/6.0.1/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/me/Documents/Workspace/Cpp/Geologger/server/udp_server.cpp > CMakeFiles/udpserver.dir/udp_server.cpp.i
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/server && /usr/local/Cellar/llvm/7.0.0/bin/clang $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/server/udp_server.cpp > CMakeFiles/udpserver.dir/udp_server.cpp.i
 
 server/CMakeFiles/udpserver.dir/udp_server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/udpserver.dir/udp_server.cpp.s"
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server && /usr/local/Cellar/llvm/6.0.1/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/me/Documents/Workspace/Cpp/Geologger/server/udp_server.cpp -o CMakeFiles/udpserver.dir/udp_server.cpp.s
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/server && /usr/local/Cellar/llvm/7.0.0/bin/clang $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/server/udp_server.cpp -o CMakeFiles/udpserver.dir/udp_server.cpp.s
 
 # Object files for target udpserver
 udpserver_OBJECTS = \
@@ -80,9 +80,9 @@ udpserver_EXTERNAL_OBJECTS =
 server/libudpserver.a: server/CMakeFiles/udpserver.dir/udp_server.cpp.o
 server/libudpserver.a: server/CMakeFiles/udpserver.dir/build.make
 server/libudpserver.a: server/CMakeFiles/udpserver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libudpserver.a"
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server && $(CMAKE_COMMAND) -P CMakeFiles/udpserver.dir/cmake_clean_target.cmake
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/udpserver.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libudpserver.a"
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/server && $(CMAKE_COMMAND) -P CMakeFiles/udpserver.dir/cmake_clean_target.cmake
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/udpserver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 server/CMakeFiles/udpserver.dir/build: server/libudpserver.a
@@ -90,10 +90,10 @@ server/CMakeFiles/udpserver.dir/build: server/libudpserver.a
 .PHONY : server/CMakeFiles/udpserver.dir/build
 
 server/CMakeFiles/udpserver.dir/clean:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server && $(CMAKE_COMMAND) -P CMakeFiles/udpserver.dir/cmake_clean.cmake
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/server && $(CMAKE_COMMAND) -P CMakeFiles/udpserver.dir/cmake_clean.cmake
 .PHONY : server/CMakeFiles/udpserver.dir/clean
 
 server/CMakeFiles/udpserver.dir/depend:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/me/Documents/Workspace/Cpp/Geologger /Users/me/Documents/Workspace/Cpp/Geologger/server /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server/CMakeFiles/udpserver.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/me/Documents/Workspace/GitHub/Cpp/Geologger /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/server /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/server /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/server/CMakeFiles/udpserver.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : server/CMakeFiles/udpserver.dir/depend
 

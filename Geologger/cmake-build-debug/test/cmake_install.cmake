@@ -1,4 +1,4 @@
-# Install script for directory: /Users/me/Documents/Workspace/Cpp/Geologger/test
+# Install script for directory: /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -30,5 +30,11 @@ endif()
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/test/googletest-release-1.8.1/cmake_install.cmake")
+
 endif()
 

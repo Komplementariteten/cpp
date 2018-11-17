@@ -15,7 +15,11 @@ if(Boost_FOUND)
 
 endif()
 
-add_library(udpserver STATIC udp_server.cpp)
+file(GLOB UTIL_FILES ${CMAKE_SOURCE_DIR}/util/*.h)
+set(SOURCE_FILES ${HEADERS} ${UTIL_FILES})
+
+
+add_library(udpserver STATIC ${HEADERS} udp_server.cpp)
 install(TARGETS udpserver DESTINATION lib)
 install(FILES udp_server.h DESTINATION include)
 target_include_directories(udpserver PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/me/Documents/Workspace/Cpp/Geologger
+# Install script for directory: /Users/me/Documents/Workspace/GitHub/Cpp/Geologger
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,7 +33,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/Geologger")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/Geologger")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Geologger" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Geologger")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server/cmake_install.cmake")
-  include("/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/test/cmake_install.cmake")
+  include("/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/server/cmake_install.cmake")
+  include("/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/test/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

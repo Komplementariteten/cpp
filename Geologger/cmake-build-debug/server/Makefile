@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.12.0/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.12.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.12.0/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.12.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/me/Documents/Workspace/Cpp/Geologger
+CMAKE_SOURCE_DIR = /Users/me/Documents/Workspace/GitHub/Cpp/Geologger
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,19 +59,19 @@ CMAKE_BINARY_DIR = /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/Cellar/cmake/3.12.0/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.12.4/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/Cellar/cmake/3.12.0/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.12.4/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/Cellar/cmake/3.12.0/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.12.4/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -82,7 +82,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/local/Cellar/cmake/3.12.0/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/usr/local/Cellar/cmake/3.12.4/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -93,25 +93,25 @@ edit_cache/fast: edit_cache
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/Cellar/cmake/3.12.0/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.12.4/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/Cellar/cmake/3.12.0/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.12.4/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/Cellar/cmake/3.12.0/bin/cmake -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.12.4/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/Cellar/cmake/3.12.0/bin/cmake -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.12.4/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -126,14 +126,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server/CMakeFiles/progress.marks
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 server/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles 0
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/server/CMakeFiles/progress.marks
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 server/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 server/clean
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 server/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 server/preinstall
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 server/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 server/preinstall
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 server/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 server/CMakeFiles/udpserver.dir/rule:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 server/CMakeFiles/udpserver.dir/rule
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 server/CMakeFiles/udpserver.dir/rule
 .PHONY : server/CMakeFiles/udpserver.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ udpserver: server/CMakeFiles/udpserver.dir/rule
 
 # fast build rule for target.
 udpserver/fast:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f server/CMakeFiles/udpserver.dir/build.make server/CMakeFiles/udpserver.dir/build
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f server/CMakeFiles/udpserver.dir/build.make server/CMakeFiles/udpserver.dir/build
 .PHONY : udpserver/fast
 
 udp_server.o: udp_server.cpp.o
@@ -177,7 +177,7 @@ udp_server.o: udp_server.cpp.o
 
 # target to build an object file
 udp_server.cpp.o:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f server/CMakeFiles/udpserver.dir/build.make server/CMakeFiles/udpserver.dir/udp_server.cpp.o
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f server/CMakeFiles/udpserver.dir/build.make server/CMakeFiles/udpserver.dir/udp_server.cpp.o
 .PHONY : udp_server.cpp.o
 
 udp_server.i: udp_server.cpp.i
@@ -186,7 +186,7 @@ udp_server.i: udp_server.cpp.i
 
 # target to preprocess a source file
 udp_server.cpp.i:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f server/CMakeFiles/udpserver.dir/build.make server/CMakeFiles/udpserver.dir/udp_server.cpp.i
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f server/CMakeFiles/udpserver.dir/build.make server/CMakeFiles/udpserver.dir/udp_server.cpp.i
 .PHONY : udp_server.cpp.i
 
 udp_server.s: udp_server.cpp.s
@@ -195,7 +195,7 @@ udp_server.s: udp_server.cpp.s
 
 # target to generate assembly for a file
 udp_server.cpp.s:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f server/CMakeFiles/udpserver.dir/build.make server/CMakeFiles/udpserver.dir/udp_server.cpp.s
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f server/CMakeFiles/udpserver.dir/build.make server/CMakeFiles/udpserver.dir/udp_server.cpp.s
 .PHONY : udp_server.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

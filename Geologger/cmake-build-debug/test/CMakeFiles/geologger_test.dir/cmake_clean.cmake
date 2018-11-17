@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/geologger_test.dir/main.cpp.o"
   "CMakeFiles/geologger_test.dir/GtestTest.cpp.o"
+  "CMakeFiles/geologger_test.dir/LeveldbTest.cpp.o"
   "CMakeFiles/geologger_test.dir/SocketTest.cpp.o"
   "CMakeFiles/geologger_test.dir/ThreadTest.cpp.o"
+  "CMakeFiles/geologger_test.dir/UdpServerTest.cpp.o"
   "geologger_test.pdb"
   "geologger_test"
 )

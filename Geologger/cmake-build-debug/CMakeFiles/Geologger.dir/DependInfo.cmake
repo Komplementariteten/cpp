@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/me/Documents/Workspace/Cpp/Geologger/main.cpp" "/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles/Geologger.dir/main.cpp.o"
+  "/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/main.cpp" "/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/Geologger.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
@@ -16,7 +16,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/server/CMakeFiles/udpserver.dir/DependInfo.cmake"
+  "/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/server/CMakeFiles/udpserver.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

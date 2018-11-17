@@ -4,6 +4,7 @@ set(CMAKE_CXX_STANDARD 17)
 project(Geologger_Test)
 
 find_package(Boost 1.57.0 COMPONENTS system filesystem REQUIRED)
+find_package(Boost 1.57.0 COMPONENTS system filesystem REQUIRED)
 
 if(Boost_FOUND)
 
@@ -15,12 +16,28 @@ if(Boost_FOUND)
 
 endif()
 
+if (APPLE)
+    add_definitions(-DGTEST_USE_OWN_TR1_TUPLE)
+    add_definitions(-D__GLIBCXX__)
+endif(APPLE)
 
-include_directories(/Users/me/Documents/libaries/googletest-release-1.8.1/include)
+set(GTEST_PATH "googletest-release-1.8.1" CACHE PATH "Google Test Suite Path")
 
-add_executable(geologger_test main.cpp GtestTest.cpp SocketTest.cpp ThreadTest.cpp)
+add_subdirectory(${GTEST_PATH})
+
+include_directories(${GTEST_PATH}/googletest/include)
+include_directories(${GTEST_PATH}/googlemock/include)
+
+
+file(GLOB TEST_FILE *Test.cpp)
+set(SOURCE_FILES ${TESTS} ${TEST_FILES})
+
+include_directories(/Users/me/Documents/libaries/leveldb/include)
+
+add_executable(geologger_test main.cpp GtestTest.cpp LeveldbTest.cpp SocketTest.cpp ThreadTest.cpp UdpServerTest.cpp)
 target_link_libraries(geologger_test gtest gmock)
 target_link_libraries(geologger_test udpserver)
+target_link_libraries(geologger_test leveldb)
 
 if(Boost_FOUND)
     target_link_libraries(geologger_test ${Boost_LIBRARIES})

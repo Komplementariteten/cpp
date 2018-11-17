@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.12.0/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.12.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.12.0/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.12.4/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/me/Documents/Workspace/Cpp/Geologger
+CMAKE_SOURCE_DIR = /Users/me/Documents/Workspace/GitHub/Cpp/Geologger
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,19 +59,19 @@ CMAKE_BINARY_DIR = /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/Cellar/cmake/3.12.0/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.12.4/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/Cellar/cmake/3.12.0/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.12.4/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/Cellar/cmake/3.12.0/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.12.4/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -82,7 +82,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/local/Cellar/cmake/3.12.0/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/usr/local/Cellar/cmake/3.12.4/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -93,25 +93,25 @@ edit_cache/fast: edit_cache
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/Cellar/cmake/3.12.0/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.12.4/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/Cellar/cmake/3.12.0/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.12.4/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/Cellar/cmake/3.12.0/bin/cmake -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.12.4/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/Cellar/cmake/3.12.0/bin/cmake -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.12.4/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -126,14 +126,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/test/CMakeFiles/progress.marks
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug/CMakeFiles 0
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/test/CMakeFiles/progress.marks
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/clean
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/geologger_test.dir/rule:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/geologger_test.dir/rule
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/geologger_test.dir/rule
 .PHONY : test/CMakeFiles/geologger_test.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ geologger_test: test/CMakeFiles/geologger_test.dir/rule
 
 # fast build rule for target.
 geologger_test/fast:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/build
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/build
 .PHONY : geologger_test/fast
 
 GtestTest.o: GtestTest.cpp.o
@@ -177,7 +177,7 @@ GtestTest.o: GtestTest.cpp.o
 
 # target to build an object file
 GtestTest.cpp.o:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/GtestTest.cpp.o
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/GtestTest.cpp.o
 .PHONY : GtestTest.cpp.o
 
 GtestTest.i: GtestTest.cpp.i
@@ -186,7 +186,7 @@ GtestTest.i: GtestTest.cpp.i
 
 # target to preprocess a source file
 GtestTest.cpp.i:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/GtestTest.cpp.i
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/GtestTest.cpp.i
 .PHONY : GtestTest.cpp.i
 
 GtestTest.s: GtestTest.cpp.s
@@ -195,8 +195,35 @@ GtestTest.s: GtestTest.cpp.s
 
 # target to generate assembly for a file
 GtestTest.cpp.s:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/GtestTest.cpp.s
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/GtestTest.cpp.s
 .PHONY : GtestTest.cpp.s
+
+LeveldbTest.o: LeveldbTest.cpp.o
+
+.PHONY : LeveldbTest.o
+
+# target to build an object file
+LeveldbTest.cpp.o:
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/LeveldbTest.cpp.o
+.PHONY : LeveldbTest.cpp.o
+
+LeveldbTest.i: LeveldbTest.cpp.i
+
+.PHONY : LeveldbTest.i
+
+# target to preprocess a source file
+LeveldbTest.cpp.i:
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/LeveldbTest.cpp.i
+.PHONY : LeveldbTest.cpp.i
+
+LeveldbTest.s: LeveldbTest.cpp.s
+
+.PHONY : LeveldbTest.s
+
+# target to generate assembly for a file
+LeveldbTest.cpp.s:
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/LeveldbTest.cpp.s
+.PHONY : LeveldbTest.cpp.s
 
 SocketTest.o: SocketTest.cpp.o
 
@@ -204,7 +231,7 @@ SocketTest.o: SocketTest.cpp.o
 
 # target to build an object file
 SocketTest.cpp.o:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o
 .PHONY : SocketTest.cpp.o
 
 SocketTest.i: SocketTest.cpp.i
@@ -213,7 +240,7 @@ SocketTest.i: SocketTest.cpp.i
 
 # target to preprocess a source file
 SocketTest.cpp.i:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/SocketTest.cpp.i
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/SocketTest.cpp.i
 .PHONY : SocketTest.cpp.i
 
 SocketTest.s: SocketTest.cpp.s
@@ -222,7 +249,7 @@ SocketTest.s: SocketTest.cpp.s
 
 # target to generate assembly for a file
 SocketTest.cpp.s:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/SocketTest.cpp.s
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/SocketTest.cpp.s
 .PHONY : SocketTest.cpp.s
 
 ThreadTest.o: ThreadTest.cpp.o
@@ -231,7 +258,7 @@ ThreadTest.o: ThreadTest.cpp.o
 
 # target to build an object file
 ThreadTest.cpp.o:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o
 .PHONY : ThreadTest.cpp.o
 
 ThreadTest.i: ThreadTest.cpp.i
@@ -240,7 +267,7 @@ ThreadTest.i: ThreadTest.cpp.i
 
 # target to preprocess a source file
 ThreadTest.cpp.i:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.i
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.i
 .PHONY : ThreadTest.cpp.i
 
 ThreadTest.s: ThreadTest.cpp.s
@@ -249,8 +276,35 @@ ThreadTest.s: ThreadTest.cpp.s
 
 # target to generate assembly for a file
 ThreadTest.cpp.s:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.s
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.s
 .PHONY : ThreadTest.cpp.s
+
+UdpServerTest.o: UdpServerTest.cpp.o
+
+.PHONY : UdpServerTest.o
+
+# target to build an object file
+UdpServerTest.cpp.o:
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/UdpServerTest.cpp.o
+.PHONY : UdpServerTest.cpp.o
+
+UdpServerTest.i: UdpServerTest.cpp.i
+
+.PHONY : UdpServerTest.i
+
+# target to preprocess a source file
+UdpServerTest.cpp.i:
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/UdpServerTest.cpp.i
+.PHONY : UdpServerTest.cpp.i
+
+UdpServerTest.s: UdpServerTest.cpp.s
+
+.PHONY : UdpServerTest.s
+
+# target to generate assembly for a file
+UdpServerTest.cpp.s:
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/UdpServerTest.cpp.s
+.PHONY : UdpServerTest.cpp.s
 
 main.o: main.cpp.o
 
@@ -258,7 +312,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/main.cpp.o
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -267,7 +321,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/main.cpp.i
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -276,7 +330,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/main.cpp.s
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(MAKE) -f test/CMakeFiles/geologger_test.dir/build.make test/CMakeFiles/geologger_test.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -295,12 +349,18 @@ help:
 	@echo "... GtestTest.o"
 	@echo "... GtestTest.i"
 	@echo "... GtestTest.s"
+	@echo "... LeveldbTest.o"
+	@echo "... LeveldbTest.i"
+	@echo "... LeveldbTest.s"
 	@echo "... SocketTest.o"
 	@echo "... SocketTest.i"
 	@echo "... SocketTest.s"
 	@echo "... ThreadTest.o"
 	@echo "... ThreadTest.i"
 	@echo "... ThreadTest.s"
+	@echo "... UdpServerTest.o"
+	@echo "... UdpServerTest.i"
+	@echo "... UdpServerTest.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -315,6 +375,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/me/Documents/Workspace/Cpp/Geologger/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

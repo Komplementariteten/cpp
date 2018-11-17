@@ -3,6 +3,16 @@
 
 test/CMakeFiles/geologger_test.dir/GtestTest.cpp.o: ../test/GtestTest.cpp
 
+test/CMakeFiles/geologger_test.dir/LeveldbTest.cpp.o: ../storage/dbstorage.h
+test/CMakeFiles/geologger_test.dir/LeveldbTest.cpp.o: ../test/LeveldbTest.cpp
+test/CMakeFiles/geologger_test.dir/LeveldbTest.cpp.o: ../util/Singelton.h
+test/CMakeFiles/geologger_test.dir/LeveldbTest.cpp.o: /usr/local/include/leveldb/db.h
+test/CMakeFiles/geologger_test.dir/LeveldbTest.cpp.o: /usr/local/include/leveldb/export.h
+test/CMakeFiles/geologger_test.dir/LeveldbTest.cpp.o: /usr/local/include/leveldb/iterator.h
+test/CMakeFiles/geologger_test.dir/LeveldbTest.cpp.o: /usr/local/include/leveldb/options.h
+test/CMakeFiles/geologger_test.dir/LeveldbTest.cpp.o: /usr/local/include/leveldb/slice.h
+test/CMakeFiles/geologger_test.dir/LeveldbTest.cpp.o: /usr/local/include/leveldb/status.h
+
 test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: ../test/SocketTest.cpp
 test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/boost/array.hpp
 test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/boost/asio/associated_allocator.hpp
@@ -961,28 +971,6 @@ test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/boost/wi
 test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/boost/winapi/local_memory.hpp
 test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/boost/winapi/time.hpp
 test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/boost/winapi/timers.hpp
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/gtest-death-test.h
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/gtest-message.h
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/gtest-param-test.h
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/gtest-printers.h
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/gtest-test-part.h
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/gtest-typed-test.h
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/gtest.h
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/gtest_pred_impl.h
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/gtest_prod.h
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/internal/custom/gtest-port.h
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/internal/custom/gtest-printers.h
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/internal/gtest-death-test-internal.h
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/internal/gtest-filepath.h
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/internal/gtest-internal.h
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/internal/gtest-linked_ptr.h
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/internal/gtest-param-util-generated.h
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/internal/gtest-param-util.h
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/internal/gtest-port-arch.h
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/internal/gtest-port.h
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/internal/gtest-string.h
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/internal/gtest-tuple.h
-test/CMakeFiles/geologger_test.dir/SocketTest.cpp.o: /usr/local/include/gtest/internal/gtest-type-util.h
 
 test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: ../test/ThreadTest.cpp
 test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/boost/array.hpp
@@ -2149,28 +2137,8 @@ test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/boost/wi
 test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/boost/winapi/local_memory.hpp
 test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/boost/winapi/time.hpp
 test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/boost/winapi/timers.hpp
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/gtest-death-test.h
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/gtest-message.h
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/gtest-param-test.h
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/gtest-printers.h
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/gtest-test-part.h
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/gtest-typed-test.h
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/gtest.h
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/gtest_pred_impl.h
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/gtest_prod.h
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/internal/custom/gtest-port.h
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/internal/custom/gtest-printers.h
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/internal/gtest-death-test-internal.h
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/internal/gtest-filepath.h
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/internal/gtest-internal.h
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/internal/gtest-linked_ptr.h
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/internal/gtest-param-util-generated.h
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/internal/gtest-param-util.h
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/internal/gtest-port-arch.h
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/internal/gtest-port.h
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/internal/gtest-string.h
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/internal/gtest-tuple.h
-test/CMakeFiles/geologger_test.dir/ThreadTest.cpp.o: /usr/local/include/gtest/internal/gtest-type-util.h
+
+test/CMakeFiles/geologger_test.dir/UdpServerTest.cpp.o: ../test/UdpServerTest.cpp
 
 test/CMakeFiles/geologger_test.dir/main.cpp.o: ../test/main.cpp
 
