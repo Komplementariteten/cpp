@@ -1,0 +1,9 @@
+[submodule "GeoLogger/leveldb"]
+	path = GeoLogger/leveldb
+	url = https://github.com/google/leveldb
+[submodule "GeoLogger/ext/leveldb"]
+	path = GeoLogger/ext/leveldb
+	url = https://github.com/google/leveldb
+[submodule "GeoLogger/ext/googletest"]
+	path = GeoLogger/ext/googletest
+	url = https://github.com/google/googletest

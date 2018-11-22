@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GeoLoggerTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ext\;CMake Files\ext\leveldb\;CMake Files\ext\leveldb\port\;CMake Files\tests\;CMake Files\net\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/tests"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Geologger_Tests">
+				<Option output="/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/tests/Geologger_Tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/ext/leveldb/include"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0/x86_64-apple-darwin18.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Geologger_Tests"/>
+					<CompileFile command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Geologger_Tests/fast">
+				<Option output="/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/tests/Geologger_Tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/ext/leveldb/include"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0/x86_64-apple-darwin18.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Geologger_Tests/fast"/>
+					<CompileFile command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/tests/TestCatchTest.cpp">
+			<Option target="Geologger_Tests"/>
+		</Unit>
+		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/tests/TestGoogleTest.cpp">
+			<Option target="Geologger_Tests"/>
+		</Unit>
+		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/tests/TestNetTest.cpp">
+			<Option target="Geologger_Tests"/>
+		</Unit>
+		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/tests/catch.h">
+			<Option target="Geologger_Tests"/>
+		</Unit>
+		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/ext/leveldb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\leveldb\"/>
+		</Unit>
+		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/ext/leveldb/port/port_config.h.in">
+			<Option virtualFolder="CMake Files\ext\leveldb\port\"/>
+		</Unit>
+		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/net/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\net\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

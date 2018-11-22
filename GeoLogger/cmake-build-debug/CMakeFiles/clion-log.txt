@@ -1,0 +1,4 @@
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/local/Cellar/make/4.2.1_1/bin/gmake -DCMAKE_C_COMPILER=/usr/local/Cellar/gcc/8.2.0/bin/gcc-8 -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc/8.2.0/bin/g++-8 -G "CodeBlocks - Unix Makefiles" /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug

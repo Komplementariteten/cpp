@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnet.a  CMakeFiles/net.dir/udp_server.cpp.o
+/usr/bin/ranlib libnet.a

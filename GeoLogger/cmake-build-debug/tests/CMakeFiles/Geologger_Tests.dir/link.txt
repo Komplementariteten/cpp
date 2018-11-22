@@ -1,0 +1,1 @@
+/usr/local/Cellar/gcc/8.2.0/bin/g++-8  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Geologger_Tests.dir/TestGoogleTest.cpp.o CMakeFiles/Geologger_Tests.dir/TestNetTest.cpp.o CMakeFiles/Geologger_Tests.dir/TestCatchTest.cpp.o  -o Geologger_Tests 
