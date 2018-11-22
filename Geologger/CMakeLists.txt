@@ -11,15 +11,21 @@ set(SOURCE_FILES ${HEADERS} ${UTIL_FILES})
 
 add_executable(Geologger main.cpp ${HEADERS})
 
-# Extern Global Libaries
-add_subdirectory(ext/leveldb)
-include_directories(ext/leveldb/include)
+if (APPLE)
+    add_definitions(-DGTEST_USE_OWN_TR1_TUPLE)
+    add_definitions(-D__GLIBCXX__)
+endif(APPLE)
 
+# Extern Global Libaries
+# add_subdirectory(../Libary/leveldb)
+
+include_directories(../Libary/leveldb/include)
+LINK_DIRECTORIES(../Libary/leveldb/build)
 
 add_subdirectory(server)
 add_subdirectory(test)
 
-target_link_libraries(Geologger udpserver)
+target_link_libraries(Geologger udpserver leveldb)
 
 install(TARGETS Geologger RUNTIME DESTINATION bin
         LIBRARY DESTINATION lib)

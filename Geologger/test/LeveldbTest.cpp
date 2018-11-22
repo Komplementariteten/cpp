@@ -29,6 +29,7 @@ static std::array<char, 4096> GetRandomString() {
     return result;
 }
 
+/*
 
 TEST(LeveldbTest, LibaryTest) {
     leveldb::DB* db;
@@ -111,3 +112,4 @@ TEST(LeveldbTest, ItteratorTest) {
 TEST(LeveldbTest, DbSingeltonTest){
     ASSERT_TRUE(GeoLogger::StorageSingelton::getInstance()->IsOpen());
 }
+ */

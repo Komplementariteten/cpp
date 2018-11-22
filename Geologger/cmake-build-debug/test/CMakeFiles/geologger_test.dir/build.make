@@ -157,7 +157,6 @@ test/geologger_test: test/CMakeFiles/geologger_test.dir/build.make
 test/geologger_test: test/googletest-release-1.8.1/googlemock/gtest/libgtestd.a
 test/geologger_test: test/googletest-release-1.8.1/googlemock/libgmockd.a
 test/geologger_test: server/libudpserver.a
-test/geologger_test: ext/leveldb/libleveldb.a
 test/geologger_test: /usr/local/lib/libboost_system.dylib
 test/geologger_test: /usr/local/lib/libboost_filesystem.dylib
 test/geologger_test: test/googletest-release-1.8.1/googlemock/gtest/libgtestd.a

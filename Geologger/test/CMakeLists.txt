@@ -16,12 +16,7 @@ if(Boost_FOUND)
 
 endif()
 
-if (APPLE)
-    add_definitions(-DGTEST_USE_OWN_TR1_TUPLE)
-    add_definitions(-D__GLIBCXX__)
-endif(APPLE)
-
-set(GTEST_PATH "googletest-release-1.8.1" CACHE PATH "Google Test Suite Path")
+set(GTEST_PATH "../ext/googletest-release-1.8.1" CACHE PATH "Google Test Suite Path")
 
 add_subdirectory(${GTEST_PATH})
 

@@ -1,23 +1,23 @@
 //
 // Created by Will nicht on 26.09.18.
 //
-#include <boost/asio/io_service.hpp>
-#include <boost/asio/write.hpp>
-#include <boost/asio/spawn.hpp>
-#include <boost/asio/buffer.hpp>
-#include <boost/asio/ip/tcp.hpp>
+// #include <boost/asio/io_service.hpp>
+// #include <boost/asio/write.hpp>
+// #include <boost/asio/spawn.hpp>
+// #include <boost/asio/buffer.hpp>
+// #include <boost/asio/ip/tcp.hpp>
 
 #include <gtest/gtest.h>
 #include <thread>
 #include <list>
 
-using namespace boost::asio;
-using namespace boost::asio::ip;
+// using namespace boost::asio;
+// using namespace boost::asio::ip;
 
 
-TEST(AsyncIOServer, Mulitthread) {
+/* TEST(AsyncIOServer, Mulitthread) {
     ASSERT_TRUE(true);
-}
+}*/
 
 
 /* Coroutine 1 is now deprecated

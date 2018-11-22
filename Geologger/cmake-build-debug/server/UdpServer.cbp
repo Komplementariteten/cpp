@@ -5,7 +5,7 @@
 		<Option title="UdpServer"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="clang"/>
-		<Option virtualFolders="CMake Files\;CMake Files\ext\;CMake Files\ext\leveldb\;CMake Files\ext\leveldb\port\;CMake Files\server\;CMake Files\test\;CMake Files\test\googletest-release-1.8.1\;CMake Files\test\googletest-release-1.8.1\googlemock\;CMake Files\test\googletest-release-1.8.1\googlemock\cmake\;CMake Files\test\googletest-release-1.8.1\googletest\;CMake Files\test\googletest-release-1.8.1\googletest\cmake\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\server\;CMake Files\test\;CMake Files\test\googletest-release-1.8.1\;CMake Files\test\googletest-release-1.8.1\googlemock\;CMake Files\test\googletest-release-1.8.1\googlemock\cmake\;CMake Files\test\googletest-release-1.8.1\googletest\;CMake Files\test\googletest-release-1.8.1\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/server"/>
@@ -24,8 +24,10 @@
 				<Option type="2"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
-					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb/include"/>
+					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/../Libary/leveldb/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/server"/>
 					<Add directory="/usr/local/Cellar/llvm/7.0.0/include/c++/v1"/>
@@ -47,8 +49,10 @@
 				<Option type="2"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
-					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb/include"/>
+					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/../Libary/leveldb/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/server"/>
 					<Add directory="/usr/local/Cellar/llvm/7.0.0/include/c++/v1"/>
@@ -72,12 +76,6 @@
 		</Unit>
 		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
-		</Unit>
-		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\ext\leveldb\"/>
-		</Unit>
-		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb/port/port_config.h.in">
-			<Option virtualFolder="CMake Files\ext\leveldb\port\"/>
 		</Unit>
 		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/server/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\server\"/>

@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
-  "../ext/leveldb/include"
+  "../../Libary/leveldb/include"
   "/usr/local/include"
   "../test/googletest-release-1.8.1/googlemock/include"
   "../test/googletest-release-1.8.1/googlemock"

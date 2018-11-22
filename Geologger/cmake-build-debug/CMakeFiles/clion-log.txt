@@ -17,6 +17,11 @@
 -- Boost_INCLUDE_DIRS: /usr/local/include
 -- Boost_LIBRARIES: /usr/local/lib/libboost_system.dylib;/usr/local/lib/libboost_filesystem.dylib
 -- Boost_VERSION: 106600
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug
+CMake Error at test/CMakeLists.txt:21 (add_subdirectory):
+  add_subdirectory given source "googletest-release-1.8.1" which is not an
+  existing directory.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/CMakeFiles/CMakeError.log".

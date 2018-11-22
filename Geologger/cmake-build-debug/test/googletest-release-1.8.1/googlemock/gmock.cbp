@@ -5,7 +5,7 @@
 		<Option title="gmock"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="clang"/>
-		<Option virtualFolders="CMake Files\;CMake Files\ext\;CMake Files\ext\leveldb\;CMake Files\ext\leveldb\port\;CMake Files\server\;CMake Files\test\;CMake Files\test\googletest-release-1.8.1\;CMake Files\test\googletest-release-1.8.1\googlemock\;CMake Files\test\googletest-release-1.8.1\googlemock\cmake\;CMake Files\test\googletest-release-1.8.1\googletest\;CMake Files\test\googletest-release-1.8.1\googletest\cmake\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\server\;CMake Files\test\;CMake Files\test\googletest-release-1.8.1\;CMake Files\test\googletest-release-1.8.1\googlemock\;CMake Files\test\googletest-release-1.8.1\googlemock\cmake\;CMake Files\test\googletest-release-1.8.1\googletest\;CMake Files\test\googletest-release-1.8.1\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/test/googletest-release-1.8.1/googlemock"/>
@@ -27,7 +27,7 @@
 					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
 					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
-					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb/include"/>
+					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/../Libary/leveldb/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googlemock/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googlemock"/>
@@ -55,7 +55,7 @@
 					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
 					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
-					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb/include"/>
+					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/../Libary/leveldb/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googlemock/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googlemock"/>
@@ -83,7 +83,7 @@
 					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
 					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
-					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb/include"/>
+					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/../Libary/leveldb/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googlemock/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googlemock"/>
@@ -111,7 +111,7 @@
 					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
 					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
-					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb/include"/>
+					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/../Libary/leveldb/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googlemock/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googlemock"/>
@@ -139,7 +139,7 @@
 					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
 					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
-					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb/include"/>
+					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/../Libary/leveldb/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googletest/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googletest"/>
@@ -165,7 +165,7 @@
 					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
 					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
-					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb/include"/>
+					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/../Libary/leveldb/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googletest/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googletest"/>
@@ -191,7 +191,7 @@
 					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
 					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
-					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb/include"/>
+					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/../Libary/leveldb/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googletest/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googletest"/>
@@ -217,7 +217,7 @@
 					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
 					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
-					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb/include"/>
+					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/../Libary/leveldb/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googletest/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googletest"/>
@@ -248,12 +248,6 @@
 		</Unit>
 		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
-		</Unit>
-		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\ext\leveldb\"/>
-		</Unit>
-		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb/port/port_config.h.in">
-			<Option virtualFolder="CMake Files\ext\leveldb\port\"/>
 		</Unit>
 		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/server/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\server\"/>

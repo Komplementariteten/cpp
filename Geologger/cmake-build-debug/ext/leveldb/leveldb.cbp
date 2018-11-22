@@ -26,6 +26,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -52,6 +54,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -78,6 +82,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -104,6 +110,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -130,6 +138,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -156,6 +166,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -182,6 +194,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -208,6 +222,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -234,6 +250,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -260,6 +278,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -286,6 +306,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -312,6 +334,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -338,6 +362,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -364,6 +390,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -390,6 +418,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -416,6 +446,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -442,6 +474,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -468,6 +502,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -494,6 +530,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -520,6 +558,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -546,6 +586,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -572,6 +614,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -598,6 +642,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -624,6 +670,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -650,6 +698,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -676,6 +726,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -702,6 +754,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -728,6 +782,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -754,6 +810,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -780,6 +838,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -806,6 +866,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -832,6 +894,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -858,6 +922,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -884,6 +950,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -910,6 +978,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -936,6 +1006,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -962,6 +1034,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -988,6 +1062,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1014,6 +1090,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1040,6 +1118,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1066,6 +1146,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1092,6 +1174,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1118,6 +1202,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1144,6 +1230,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1170,6 +1258,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1196,6 +1286,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1222,6 +1314,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1248,6 +1342,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1274,6 +1370,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1300,6 +1398,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1326,6 +1426,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1352,6 +1454,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1378,6 +1482,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1404,6 +1510,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1430,6 +1538,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1456,6 +1566,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1482,6 +1594,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1508,6 +1622,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1534,6 +1650,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1560,6 +1678,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1586,6 +1706,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1612,6 +1734,8 @@
 				<Compiler>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1636,6 +1760,8 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1660,6 +1786,8 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1687,6 +1815,8 @@
 					<Add option="-DLEVELDB_COMPILE_LIBRARY"/>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>
@@ -1714,6 +1844,8 @@
 					<Add option="-DLEVELDB_COMPILE_LIBRARY"/>
 					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
 					<Add option="-DLEVELDB_HAS_PORT_CONFIG_H=1"/>
+					<Add option="-DGTEST_USE_OWN_TR1_TUPLE"/>
+					<Add option="-D__GLIBCXX__"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/cmake-build-debug/ext/leveldb/include"/>
 					<Add directory="/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb"/>

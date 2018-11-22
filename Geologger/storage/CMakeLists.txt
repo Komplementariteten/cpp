@@ -3,8 +3,6 @@ set(CMAKE_CXX_STANDARD 17)
 
 project(DbStorage)
 
-include_directories(/Users/me/Documents/libaries/leveldb/include)
-
 file(GLOB UTIL_FILES ${CMAKE_SOURCE_DIR}/util/*.h)
 set(SOURCE_FILES ${HEADERS} ${UTIL_FILES})
 

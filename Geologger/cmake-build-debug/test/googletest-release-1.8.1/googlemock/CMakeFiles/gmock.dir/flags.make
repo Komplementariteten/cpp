@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/Ma
 
 CXX_DEFINES = -DGTEST_USE_OWN_TR1_TUPLE -D__GLIBCXX__
 
-CXX_INCLUDES = -I/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include -I/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/ext/leveldb/include -I/usr/local/include -I/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googlemock/include -I/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googlemock -isystem /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googletest/include -isystem /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googletest 
+CXX_INCLUDES = -I/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/include -I/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/../Libary/leveldb/include -I/usr/local/include -I/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googlemock/include -I/Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googlemock -isystem /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googletest/include -isystem /Users/me/Documents/Workspace/GitHub/Cpp/Geologger/test/googletest-release-1.8.1/googletest 
 

@@ -47,9 +47,11 @@ set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
+  "GTEST_USE_OWN_TR1_TUPLE"
   "LEVELDB_COMPILE_LIBRARY"
   "LEVELDB_HAS_PORT_CONFIG_H=1"
   "LEVELDB_PLATFORM_POSIX=1"
+  "__GLIBCXX__"
   )
 
 # The include file search paths:
