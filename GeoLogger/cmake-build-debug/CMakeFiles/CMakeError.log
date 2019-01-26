@@ -1,78 +1,78 @@
 Determining if the function crc32c_value exists in the crc32c failed with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_34a46/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_34a46.dir/build.make CMakeFiles/cmTC_34a46.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_4a739/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_4a739.dir/build.make CMakeFiles/cmTC_4a739.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_34a46.dir/CheckFunctionExists.c.o
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -DCHECK_FUNCTION_EXISTS=crc32c_value   -std=c11 -o CMakeFiles/cmTC_34a46.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.12.4/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_34a46
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34a46.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8  -DCHECK_FUNCTION_EXISTS=crc32c_value -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_34a46.dir/CheckFunctionExists.c.o  -o cmTC_34a46 -lcrc32c 
+Building C object CMakeFiles/cmTC_4a739.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -DCHECK_FUNCTION_EXISTS=crc32c_value   -std=c11 -o CMakeFiles/cmTC_4a739.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.12.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4a739
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a739.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8  -DCHECK_FUNCTION_EXISTS=crc32c_value -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4a739.dir/CheckFunctionExists.c.o  -o cmTC_4a739 -lcrc32c 
 ld: library not found for -lcrc32c
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_34a46.dir/build.make:87: cmTC_34a46] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_4a739.dir/build.make:87: cmTC_4a739] Error 1
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:121: cmTC_34a46/fast] Error 2
+gmake: *** [Makefile:121: cmTC_4a739/fast] Error 2
 
 
 Determining if the function snappy_compress exists in the snappy failed with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_80320/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_80320.dir/build.make CMakeFiles/cmTC_80320.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_1e01e/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_1e01e.dir/build.make CMakeFiles/cmTC_1e01e.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_80320.dir/CheckFunctionExists.c.o
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -DCHECK_FUNCTION_EXISTS=snappy_compress   -std=c11 -o CMakeFiles/cmTC_80320.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.12.4/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_80320
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80320.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8  -DCHECK_FUNCTION_EXISTS=snappy_compress -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_80320.dir/CheckFunctionExists.c.o  -o cmTC_80320 -lsnappy 
+Building C object CMakeFiles/cmTC_1e01e.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -DCHECK_FUNCTION_EXISTS=snappy_compress   -std=c11 -o CMakeFiles/cmTC_1e01e.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.12.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1e01e
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e01e.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8  -DCHECK_FUNCTION_EXISTS=snappy_compress -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1e01e.dir/CheckFunctionExists.c.o  -o cmTC_1e01e -lsnappy 
 ld: library not found for -lsnappy
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_80320.dir/build.make:87: cmTC_80320] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_1e01e.dir/build.make:87: cmTC_1e01e] Error 1
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:121: cmTC_80320/fast] Error 2
+gmake: *** [Makefile:121: cmTC_1e01e/fast] Error 2
 
 
 Determining if the function malloc exists in the tcmalloc failed with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_a4db0/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_a4db0.dir/build.make CMakeFiles/cmTC_a4db0.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_ca229/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_ca229.dir/build.make CMakeFiles/cmTC_ca229.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a4db0.dir/CheckFunctionExists.c.o
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -DCHECK_FUNCTION_EXISTS=malloc   -std=c11 -o CMakeFiles/cmTC_a4db0.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.12.4/share/cmake/Modules/CheckFunctionExists.c
+Building C object CMakeFiles/cmTC_ca229.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -DCHECK_FUNCTION_EXISTS=malloc   -std=c11 -o CMakeFiles/cmTC_ca229.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.12.4/share/cmake/Modules/CheckFunctionExists.c
 <command-line>: warning: conflicting types for built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
 /usr/local/Cellar/cmake/3.12.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
    CHECK_FUNCTION_EXISTS(void);
    ^~~~~~~~~~~~~~~~~~~~~
-Linking C executable cmTC_a4db0
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4db0.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8  -DCHECK_FUNCTION_EXISTS=malloc -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a4db0.dir/CheckFunctionExists.c.o  -o cmTC_a4db0 -ltcmalloc 
+Linking C executable cmTC_ca229
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca229.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8  -DCHECK_FUNCTION_EXISTS=malloc -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ca229.dir/CheckFunctionExists.c.o  -o cmTC_ca229 -ltcmalloc 
 ld: library not found for -ltcmalloc
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_a4db0.dir/build.make:87: cmTC_a4db0] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_ca229.dir/build.make:87: cmTC_ca229] Error 1
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:121: cmTC_a4db0/fast] Error 2
+gmake: *** [Makefile:121: cmTC_ca229/fast] Error 2
 
 
 Determining if the fdatasync exist failed with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_47e10/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_47e10.dir/build.make CMakeFiles/cmTC_47e10.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_06635/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_06635.dir/build.make CMakeFiles/cmTC_06635.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_47e10.dir/CheckSymbolExists.c.o
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_47e10.dir/CheckSymbolExists.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_06635.dir/CheckSymbolExists.c.o
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_06635.dir/CheckSymbolExists.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
 /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'fdatasync' undeclared (first use in this function); did you mean 'fsync'?
    return ((int*)(&fdatasync))[argc];
                    ^~~~~~~~~
                    fsync
 /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
-gmake[1]: *** [CMakeFiles/cmTC_47e10.dir/build.make:66: CMakeFiles/cmTC_47e10.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_06635.dir/build.make:66: CMakeFiles/cmTC_06635.dir/CheckSymbolExists.c.o] Error 1
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:121: cmTC_47e10/fast] Error 2
+gmake: *** [Makefile:121: cmTC_06635/fast] Error 2
 
 File /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -92,11 +92,11 @@ int main(int argc, char** argv)
 Performing C++ SOURCE FILE Test HAVE_CLANG_THREAD_SAFETY failed with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_b6063/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_b6063.dir/build.make CMakeFiles/cmTC_b6063.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_ef03e/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_ef03e.dir/build.make CMakeFiles/cmTC_ef03e.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b6063.dir/src.cxx.o
-/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -DHAVE_CLANG_THREAD_SAFETY -Werror   -std=c++11 -o CMakeFiles/cmTC_b6063.dir/src.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_ef03e.dir/src.cxx.o
+/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -DHAVE_CLANG_THREAD_SAFETY -Werror   -std=c++11 -o CMakeFiles/cmTC_ef03e.dir/src.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
 /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:2:34: error: 'lockable' attribute directive ignored [-Werror=attributes]
  struct __attribute__((lockable)) Lock {
                                   ^~~~
@@ -110,9 +110,9 @@ Building CXX object CMakeFiles/cmTC_b6063.dir/src.cxx.o
    int data_ __attribute__((guarded_by(lock_)));
                                               ^
 cc1plus: all warnings being treated as errors
-gmake[1]: *** [CMakeFiles/cmTC_b6063.dir/build.make:66: CMakeFiles/cmTC_b6063.dir/src.cxx.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_ef03e.dir/build.make:66: CMakeFiles/cmTC_ef03e.dir/src.cxx.o] Error 1
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:121: cmTC_b6063/fast] Error 2
+gmake: *** [Makefile:121: cmTC_ef03e/fast] Error 2
 
 Source file was:
 
@@ -129,18 +129,18 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_KYOTOCABINET failed with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_cb958/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_cb958.dir/build.make CMakeFiles/cmTC_cb958.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_e9cec/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_e9cec.dir/build.make CMakeFiles/cmTC_e9cec.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cb958.dir/src.cxx.o
-/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -DHAVE_KYOTOCABINET   -std=c++11 -o CMakeFiles/cmTC_cb958.dir/src.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_e9cec.dir/src.cxx.o
+/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -DHAVE_KYOTOCABINET   -std=c++11 -o CMakeFiles/cmTC_e9cec.dir/src.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
 /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: kcpolydb.h: No such file or directory
  #include <kcpolydb.h>
           ^~~~~~~~~~~~
 compilation terminated.
-gmake[1]: *** [CMakeFiles/cmTC_cb958.dir/build.make:66: CMakeFiles/cmTC_cb958.dir/src.cxx.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_e9cec.dir/build.make:66: CMakeFiles/cmTC_e9cec.dir/src.cxx.o] Error 1
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:121: cmTC_cb958/fast] Error 2
+gmake: *** [Makefile:121: cmTC_e9cec/fast] Error 2
 
 Source file was:
 

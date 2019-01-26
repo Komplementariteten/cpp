@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/Users/me/Documents/Workspace/
 Determining if the C compiler works passed with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_11832/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_11832.dir/build.make CMakeFiles/cmTC_11832.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_a91f5/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_a91f5.dir/build.make CMakeFiles/cmTC_a91f5.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_11832.dir/testCCompiler.c.o
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8    -o CMakeFiles/cmTC_11832.dir/testCCompiler.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_11832
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11832.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_11832.dir/testCCompiler.c.o  -o cmTC_11832 
+Building C object CMakeFiles/cmTC_a91f5.dir/testCCompiler.c.o
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8    -o CMakeFiles/cmTC_a91f5.dir/testCCompiler.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_a91f5
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a91f5.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a91f5.dir/testCCompiler.c.o  -o cmTC_a91f5 
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_fdd44/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_fdd44.dir/build.make CMakeFiles/cmTC_fdd44.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_04569/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_04569.dir/build.make CMakeFiles/cmTC_04569.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fdd44.dir/CMakeCCompilerABI.c.o
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8    -o CMakeFiles/cmTC_fdd44.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.12.4/share/cmake/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_fdd44
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdd44.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_fdd44.dir/CMakeCCompilerABI.c.o  -o cmTC_fdd44 
+Building C object CMakeFiles/cmTC_04569.dir/CMakeCCompilerABI.c.o
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8    -o CMakeFiles/cmTC_04569.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.12.4/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_04569
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04569.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_04569.dir/CMakeCCompilerABI.c.o  -o cmTC_04569 
 Using built-in specs.
 COLLECT_GCC=/usr/local/Cellar/gcc/8.2.0/bin/gcc-8
 COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/lto-wrapper
@@ -59,10 +59,10 @@ Thread model: posix
 gcc version 8.2.0 (Homebrew GCC 8.2.0) 
 COMPILER_PATH=/usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/:/usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/:/usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/:/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/:/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/
 LIBRARY_PATH=/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/:/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fdd44' '-mmacosx-version-min=10.14.0' '-asm_macosx_version_min=10.14' '-mtune=core2'
- /usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/collect2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/ -dynamic -arch x86_64 -macosx_version_min 10.14.0 -weak_reference_mismatches non-weak -o cmTC_fdd44 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_fdd44.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04569' '-mmacosx-version-min=10.14.0' '-asm_macosx_version_min=10.14' '-mtune=core2'
+ /usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/collect2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/ -dynamic -arch x86_64 -macosx_version_min 10.14.0 -weak_reference_mismatches non-weak -o cmTC_04569 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_04569.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
 collect2 version 8.2.0
-/usr/bin/ld -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/ -dynamic -arch x86_64 -macosx_version_min 10.14.0 -weak_reference_mismatches non-weak -o cmTC_fdd44 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_fdd44.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+/usr/bin/ld -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/ -dynamic -arch x86_64 -macosx_version_min 10.14.0 -weak_reference_mismatches non-weak -o cmTC_04569 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_04569.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
 @(#)PROGRAM:ld  PROJECT:ld64-409.12
 BUILD 17:47:51 Sep 25 2018
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em arm64e arm64_32
@@ -75,7 +75,7 @@ Library search paths:
 	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
 Framework search paths:
 	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
- /usr/bin/nm -n CMakeFiles/cmTC_fdd44.dir/CMakeCCompilerABI.c.o
+ /usr/bin/nm -n CMakeFiles/cmTC_04569.dir/CMakeCCompilerABI.c.o
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -83,14 +83,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_fdd44/fast"]
-  ignore line: [/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_fdd44.dir/build.make CMakeFiles/cmTC_fdd44.dir/build]
+  ignore line: [Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_04569/fast"]
+  ignore line: [/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_04569.dir/build.make CMakeFiles/cmTC_04569.dir/build]
   ignore line: [gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_fdd44.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/local/Cellar/gcc/8.2.0/bin/gcc-8    -o CMakeFiles/cmTC_fdd44.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.12.4/share/cmake/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_fdd44]
-  ignore line: [/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdd44.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_fdd44.dir/CMakeCCompilerABI.c.o  -o cmTC_fdd44 ]
+  ignore line: [Building C object CMakeFiles/cmTC_04569.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/Cellar/gcc/8.2.0/bin/gcc-8    -o CMakeFiles/cmTC_04569.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.12.4/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_04569]
+  ignore line: [/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04569.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_04569.dir/CMakeCCompilerABI.c.o  -o cmTC_04569 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/local/Cellar/gcc/8.2.0/bin/gcc-8]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/lto-wrapper]
@@ -100,8 +100,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.2.0 (Homebrew GCC 8.2.0) ]
   ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/:/usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/:/usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/:/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/:/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/]
   ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/:/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fdd44' '-mmacosx-version-min=10.14.0' '-asm_macosx_version_min=10.14' '-mtune=core2']
-  link line: [ /usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/collect2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/ -dynamic -arch x86_64 -macosx_version_min 10.14.0 -weak_reference_mismatches non-weak -o cmTC_fdd44 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_fdd44.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04569' '-mmacosx-version-min=10.14.0' '-asm_macosx_version_min=10.14' '-mtune=core2']
+  link line: [ /usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/collect2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/ -dynamic -arch x86_64 -macosx_version_min 10.14.0 -weak_reference_mismatches non-weak -o cmTC_04569 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_04569.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v]
     arg [/usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/collect2] ==> ignore
     arg [-syslibroot] ==> ignore
     arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/] ==> ignore
@@ -113,13 +113,13 @@ Parsed C implicit link information from above output:
     arg [-weak_reference_mismatches] ==> ignore
     arg [non-weak] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_fdd44] ==> ignore
+    arg [cmTC_04569] ==> ignore
     arg [-L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0] ==> dir [/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0]
     arg [-L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../..] ==> dir [/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../..]
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_fdd44.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_04569.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-no_compact_unwind] ==> ignore
     arg [-lSystem] ==> lib [System]
     arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
@@ -146,14 +146,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_4e521/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_4e521.dir/build.make CMakeFiles/cmTC_4e521.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_d299a/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_d299a.dir/build.make CMakeFiles/cmTC_d299a.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4e521.dir/feature_tests.c.o
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_4e521.dir/feature_tests.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_4e521
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e521.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4e521.dir/feature_tests.c.o  -o cmTC_4e521 
+Building C object CMakeFiles/cmTC_d299a.dir/feature_tests.c.o
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_d299a.dir/feature_tests.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d299a
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d299a.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d299a.dir/feature_tests.c.o  -o cmTC_d299a 
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -166,14 +166,14 @@ gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_829f7/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_829f7.dir/build.make CMakeFiles/cmTC_829f7.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_db3e1/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_db3e1.dir/build.make CMakeFiles/cmTC_db3e1.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_829f7.dir/feature_tests.c.o
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c99 -o CMakeFiles/cmTC_829f7.dir/feature_tests.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_829f7
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_829f7.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_829f7.dir/feature_tests.c.o  -o cmTC_829f7 
+Building C object CMakeFiles/cmTC_db3e1.dir/feature_tests.c.o
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c99 -o CMakeFiles/cmTC_db3e1.dir/feature_tests.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_db3e1
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db3e1.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_db3e1.dir/feature_tests.c.o  -o cmTC_db3e1 
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -186,14 +186,14 @@ gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_a60b7/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_a60b7.dir/build.make CMakeFiles/cmTC_a60b7.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_8d870/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_8d870.dir/build.make CMakeFiles/cmTC_8d870.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a60b7.dir/feature_tests.c.o
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c90 -o CMakeFiles/cmTC_a60b7.dir/feature_tests.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a60b7
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a60b7.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a60b7.dir/feature_tests.c.o  -o cmTC_a60b7 
+Building C object CMakeFiles/cmTC_8d870.dir/feature_tests.c.o
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c90 -o CMakeFiles/cmTC_8d870.dir/feature_tests.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8d870
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d870.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8d870.dir/feature_tests.c.o  -o cmTC_8d870 
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -204,28 +204,28 @@ gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_1a740/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_1a740.dir/build.make CMakeFiles/cmTC_1a740.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_20f63/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_20f63.dir/build.make CMakeFiles/cmTC_20f63.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1a740.dir/testCXXCompiler.cxx.o
-/usr/local/Cellar/gcc/8.2.0/bin/g++-8     -o CMakeFiles/cmTC_1a740.dir/testCXXCompiler.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_1a740
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a740.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1a740.dir/testCXXCompiler.cxx.o  -o cmTC_1a740 
+Building CXX object CMakeFiles/cmTC_20f63.dir/testCXXCompiler.cxx.o
+/usr/local/Cellar/gcc/8.2.0/bin/g++-8     -o CMakeFiles/cmTC_20f63.dir/testCXXCompiler.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_20f63
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20f63.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_20f63.dir/testCXXCompiler.cxx.o  -o cmTC_20f63 
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_fd444/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_fd444.dir/build.make CMakeFiles/cmTC_fd444.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_62699/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_62699.dir/build.make CMakeFiles/cmTC_62699.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fd444.dir/CMakeCXXCompilerABI.cpp.o
-/usr/local/Cellar/gcc/8.2.0/bin/g++-8     -o CMakeFiles/cmTC_fd444.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.12.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_fd444
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd444.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_fd444.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_fd444 
+Building CXX object CMakeFiles/cmTC_62699.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/Cellar/gcc/8.2.0/bin/g++-8     -o CMakeFiles/cmTC_62699.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.12.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_62699
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62699.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_62699.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_62699 
 Using built-in specs.
 COLLECT_GCC=/usr/local/Cellar/gcc/8.2.0/bin/g++-8
 COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/lto-wrapper
@@ -235,10 +235,10 @@ Thread model: posix
 gcc version 8.2.0 (Homebrew GCC 8.2.0) 
 COMPILER_PATH=/usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/:/usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/:/usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/:/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/:/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/
 LIBRARY_PATH=/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/:/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fd444' '-mmacosx-version-min=10.14.0' '-asm_macosx_version_min=10.14' '-shared-libgcc' '-mtune=core2'
- /usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/collect2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/ -dynamic -arch x86_64 -macosx_version_min 10.14.0 -weak_reference_mismatches non-weak -o cmTC_fd444 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_fd444.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_62699' '-mmacosx-version-min=10.14.0' '-asm_macosx_version_min=10.14' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/collect2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/ -dynamic -arch x86_64 -macosx_version_min 10.14.0 -weak_reference_mismatches non-weak -o cmTC_62699 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_62699.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
 collect2 version 8.2.0
-/usr/bin/ld -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/ -dynamic -arch x86_64 -macosx_version_min 10.14.0 -weak_reference_mismatches non-weak -o cmTC_fd444 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_fd444.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+/usr/bin/ld -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/ -dynamic -arch x86_64 -macosx_version_min 10.14.0 -weak_reference_mismatches non-weak -o cmTC_62699 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_62699.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
 @(#)PROGRAM:ld  PROJECT:ld64-409.12
 BUILD 17:47:51 Sep 25 2018
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em arm64e arm64_32
@@ -251,7 +251,7 @@ Library search paths:
 	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
 Framework search paths:
 	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
- /usr/bin/nm -n CMakeFiles/cmTC_fd444.dir/CMakeCXXCompilerABI.cpp.o
+ /usr/bin/nm -n CMakeFiles/cmTC_62699.dir/CMakeCXXCompilerABI.cpp.o
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -259,14 +259,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_fd444/fast"]
-  ignore line: [/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_fd444.dir/build.make CMakeFiles/cmTC_fd444.dir/build]
+  ignore line: [Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_62699/fast"]
+  ignore line: [/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_62699.dir/build.make CMakeFiles/cmTC_62699.dir/build]
   ignore line: [gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_fd444.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/local/Cellar/gcc/8.2.0/bin/g++-8     -o CMakeFiles/cmTC_fd444.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.12.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_fd444]
-  ignore line: [/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd444.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_fd444.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_fd444 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_62699.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/Cellar/gcc/8.2.0/bin/g++-8     -o CMakeFiles/cmTC_62699.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.12.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_62699]
+  ignore line: [/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62699.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_62699.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_62699 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/local/Cellar/gcc/8.2.0/bin/g++-8]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/lto-wrapper]
@@ -276,8 +276,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.2.0 (Homebrew GCC 8.2.0) ]
   ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/:/usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/:/usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/:/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/:/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/]
   ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/:/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fd444' '-mmacosx-version-min=10.14.0' '-asm_macosx_version_min=10.14' '-shared-libgcc' '-mtune=core2']
-  link line: [ /usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/collect2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/ -dynamic -arch x86_64 -macosx_version_min 10.14.0 -weak_reference_mismatches non-weak -o cmTC_fd444 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_fd444.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_62699' '-mmacosx-version-min=10.14.0' '-asm_macosx_version_min=10.14' '-shared-libgcc' '-mtune=core2']
+  link line: [ /usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/collect2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/ -dynamic -arch x86_64 -macosx_version_min 10.14.0 -weak_reference_mismatches non-weak -o cmTC_62699 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_62699.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v]
     arg [/usr/local/Cellar/gcc/8.2.0/libexec/gcc/x86_64-apple-darwin18.0.0/8.2.0/collect2] ==> ignore
     arg [-syslibroot] ==> ignore
     arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/] ==> ignore
@@ -289,13 +289,13 @@ Parsed CXX implicit link information from above output:
     arg [-weak_reference_mismatches] ==> ignore
     arg [non-weak] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_fd444] ==> ignore
+    arg [cmTC_62699] ==> ignore
     arg [-L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0] ==> dir [/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0]
     arg [-L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../..] ==> dir [/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../..]
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_fd444.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_62699.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-no_compact_unwind] ==> ignore
     arg [-lSystem] ==> lib [System]
@@ -323,14 +323,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_9ad3b/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_9ad3b.dir/build.make CMakeFiles/cmTC_9ad3b.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_d7089/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_d7089.dir/build.make CMakeFiles/cmTC_d7089.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9ad3b.dir/feature_tests.cxx.o
-/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -std=c++2a -o CMakeFiles/cmTC_9ad3b.dir/feature_tests.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9ad3b
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ad3b.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9ad3b.dir/feature_tests.cxx.o  -o cmTC_9ad3b 
+Building CXX object CMakeFiles/cmTC_d7089.dir/feature_tests.cxx.o
+/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -std=c++2a -o CMakeFiles/cmTC_d7089.dir/feature_tests.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d7089
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7089.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d7089.dir/feature_tests.cxx.o  -o cmTC_d7089 
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -396,14 +396,14 @@ gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_da44d/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_da44d.dir/build.make CMakeFiles/cmTC_da44d.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_9fc09/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_9fc09.dir/build.make CMakeFiles/cmTC_9fc09.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_da44d.dir/feature_tests.cxx.o
-/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -std=c++17 -o CMakeFiles/cmTC_da44d.dir/feature_tests.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_da44d
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da44d.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_da44d.dir/feature_tests.cxx.o  -o cmTC_da44d 
+Building CXX object CMakeFiles/cmTC_9fc09.dir/feature_tests.cxx.o
+/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -std=c++17 -o CMakeFiles/cmTC_9fc09.dir/feature_tests.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9fc09
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fc09.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9fc09.dir/feature_tests.cxx.o  -o cmTC_9fc09 
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -469,14 +469,14 @@ gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_9e225/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_9e225.dir/build.make CMakeFiles/cmTC_9e225.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_14f18/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_14f18.dir/build.make CMakeFiles/cmTC_14f18.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9e225.dir/feature_tests.cxx.o
-/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -std=c++14 -o CMakeFiles/cmTC_9e225.dir/feature_tests.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9e225
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e225.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9e225.dir/feature_tests.cxx.o  -o cmTC_9e225 
+Building CXX object CMakeFiles/cmTC_14f18.dir/feature_tests.cxx.o
+/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -std=c++14 -o CMakeFiles/cmTC_14f18.dir/feature_tests.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_14f18
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14f18.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_14f18.dir/feature_tests.cxx.o  -o cmTC_14f18 
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -542,14 +542,14 @@ gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_c7298/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_c7298.dir/build.make CMakeFiles/cmTC_c7298.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_1f762/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_1f762.dir/build.make CMakeFiles/cmTC_1f762.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c7298.dir/feature_tests.cxx.o
-/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -std=c++11 -o CMakeFiles/cmTC_c7298.dir/feature_tests.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c7298
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7298.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c7298.dir/feature_tests.cxx.o  -o cmTC_c7298 
+Building CXX object CMakeFiles/cmTC_1f762.dir/feature_tests.cxx.o
+/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -std=c++11 -o CMakeFiles/cmTC_1f762.dir/feature_tests.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1f762
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f762.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1f762.dir/feature_tests.cxx.o  -o cmTC_1f762 
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -615,14 +615,14 @@ gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_5b7b7/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_5b7b7.dir/build.make CMakeFiles/cmTC_5b7b7.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_3b127/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_3b127.dir/build.make CMakeFiles/cmTC_3b127.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5b7b7.dir/feature_tests.cxx.o
-/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -std=c++98 -o CMakeFiles/cmTC_5b7b7.dir/feature_tests.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_5b7b7
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b7b7.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5b7b7.dir/feature_tests.cxx.o  -o cmTC_5b7b7 
+Building CXX object CMakeFiles/cmTC_3b127.dir/feature_tests.cxx.o
+/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -std=c++98 -o CMakeFiles/cmTC_3b127.dir/feature_tests.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3b127
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b127.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3b127.dir/feature_tests.cxx.o  -o cmTC_3b127 
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -686,70 +686,70 @@ gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/
 Determining if the include file sys/types.h exists passed with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_dec53/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_dec53.dir/build.make CMakeFiles/cmTC_dec53.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_0ddba/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_0ddba.dir/build.make CMakeFiles/cmTC_0ddba.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dec53.dir/CheckIncludeFile.c.o
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_dec53.dir/CheckIncludeFile.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_dec53
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dec53.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dec53.dir/CheckIncludeFile.c.o  -o cmTC_dec53 
+Building C object CMakeFiles/cmTC_0ddba.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_0ddba.dir/CheckIncludeFile.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0ddba
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ddba.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0ddba.dir/CheckIncludeFile.c.o  -o cmTC_0ddba 
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file stdint.h exists passed with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_43f8d/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_43f8d.dir/build.make CMakeFiles/cmTC_43f8d.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_f070f/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_f070f.dir/build.make CMakeFiles/cmTC_f070f.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_43f8d.dir/CheckIncludeFile.c.o
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_43f8d.dir/CheckIncludeFile.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_43f8d
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43f8d.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_43f8d.dir/CheckIncludeFile.c.o  -o cmTC_43f8d 
+Building C object CMakeFiles/cmTC_f070f.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_f070f.dir/CheckIncludeFile.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f070f
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f070f.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f070f.dir/CheckIncludeFile.c.o  -o cmTC_f070f 
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file stddef.h exists passed with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_7ba3f/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_7ba3f.dir/build.make CMakeFiles/cmTC_7ba3f.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_b886e/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_b886e.dir/build.make CMakeFiles/cmTC_b886e.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7ba3f.dir/CheckIncludeFile.c.o
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_7ba3f.dir/CheckIncludeFile.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_7ba3f
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ba3f.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7ba3f.dir/CheckIncludeFile.c.o  -o cmTC_7ba3f 
+Building C object CMakeFiles/cmTC_b886e.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_b886e.dir/CheckIncludeFile.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b886e
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b886e.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b886e.dir/CheckIncludeFile.c.o  -o cmTC_b886e 
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining size of unsigned short passed with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_7aefc/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_7aefc.dir/build.make CMakeFiles/cmTC_7aefc.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_06066/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_06066.dir/build.make CMakeFiles/cmTC_06066.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7aefc.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_7aefc.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
-Linking C executable cmTC_7aefc
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7aefc.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7aefc.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_7aefc 
+Building C object CMakeFiles/cmTC_06066.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_06066.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_06066
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06066.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_06066.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_06066 
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the system is big endian passed with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_94168/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_94168.dir/build.make CMakeFiles/cmTC_94168.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_4dfbd/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_4dfbd.dir/build.make CMakeFiles/cmTC_4dfbd.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_94168.dir/TestEndianess.c.o
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_94168.dir/TestEndianess.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/TestEndianess.c
-Linking C executable cmTC_94168
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94168.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_94168.dir/TestEndianess.c.o  -o cmTC_94168 
+Building C object CMakeFiles/cmTC_4dfbd.dir/TestEndianess.c.o
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_4dfbd.dir/TestEndianess.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_4dfbd
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dfbd.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4dfbd.dir/TestEndianess.c.o  -o cmTC_4dfbd 
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 TestEndianess.c:
@@ -781,28 +781,28 @@ int main(int argc, char *argv[])
 Determining if the include file unistd.h exists passed with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_6d1f6/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_6d1f6.dir/build.make CMakeFiles/cmTC_6d1f6.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_6986a/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_6986a.dir/build.make CMakeFiles/cmTC_6986a.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6d1f6.dir/CheckIncludeFile.c.o
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_6d1f6.dir/CheckIncludeFile.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_6d1f6
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d1f6.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6d1f6.dir/CheckIncludeFile.c.o  -o cmTC_6d1f6 
+Building C object CMakeFiles/cmTC_6986a.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_6986a.dir/CheckIncludeFile.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6986a
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6986a.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6986a.dir/CheckIncludeFile.c.o  -o cmTC_6986a 
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Performing C++ SOURCE FILE Test HAVE_CXX17_HAS_INCLUDE succeeded with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_43acd/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_43acd.dir/build.make CMakeFiles/cmTC_43acd.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_86f3e/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_86f3e.dir/build.make CMakeFiles/cmTC_86f3e.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_43acd.dir/src.cxx.o
-/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -DHAVE_CXX17_HAS_INCLUDE   -std=c++11 -o CMakeFiles/cmTC_43acd.dir/src.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_43acd
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43acd.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/g++-8   -DHAVE_CXX17_HAS_INCLUDE -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_43acd.dir/src.cxx.o  -o cmTC_43acd 
+Building CXX object CMakeFiles/cmTC_86f3e.dir/src.cxx.o
+/usr/local/Cellar/gcc/8.2.0/bin/g++-8    -DHAVE_CXX17_HAS_INCLUDE   -std=c++11 -o CMakeFiles/cmTC_86f3e.dir/src.cxx.o -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_86f3e
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86f3e.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/g++-8   -DHAVE_CXX17_HAS_INCLUDE -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_86f3e.dir/src.cxx.o  -o cmTC_86f3e 
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -815,28 +815,28 @@ int main() { std::string str; return 0; }
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_3a72b/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_3a72b.dir/build.make CMakeFiles/cmTC_3a72b.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_62bfb/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_62bfb.dir/build.make CMakeFiles/cmTC_62bfb.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3a72b.dir/CheckIncludeFile.c.o
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_3a72b.dir/CheckIncludeFile.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_3a72b
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a72b.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3a72b.dir/CheckIncludeFile.c.o  -o cmTC_3a72b 
+Building C object CMakeFiles/cmTC_62bfb.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_62bfb.dir/CheckIncludeFile.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_62bfb
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62bfb.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_62bfb.dir/CheckIncludeFile.c.o  -o cmTC_62bfb 
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the pthread_create exist passed with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_329ab/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_329ab.dir/build.make CMakeFiles/cmTC_329ab.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_03648/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_03648.dir/build.make CMakeFiles/cmTC_03648.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_329ab.dir/CheckSymbolExists.c.o
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_329ab.dir/CheckSymbolExists.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_329ab
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_329ab.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_329ab.dir/CheckSymbolExists.c.o  -o cmTC_329ab 
+Building C object CMakeFiles/cmTC_03648.dir/CheckSymbolExists.c.o
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -std=c11 -o CMakeFiles/cmTC_03648.dir/CheckSymbolExists.c.o   -c /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_03648
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03648.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_03648.dir/CheckSymbolExists.c.o  -o cmTC_03648 
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 File /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -857,14 +857,14 @@ int main(int argc, char** argv)
 Determining if the function sqlite3_open exists in the sqlite3 passed with the following output:
 Change Dir: /Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_6234e/fast"
-/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_6234e.dir/build.make CMakeFiles/cmTC_6234e.dir/build
+Run Build Command:"/usr/local/Cellar/make/4.2.1_1/bin/gmake" "cmTC_623b1/fast"
+/usr/local/Cellar/make/4.2.1_1/bin/gmake -f CMakeFiles/cmTC_623b1.dir/build.make CMakeFiles/cmTC_623b1.dir/build
 gmake[1]: Entering directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6234e.dir/CheckFunctionExists.c.o
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -DCHECK_FUNCTION_EXISTS=sqlite3_open   -std=c11 -o CMakeFiles/cmTC_6234e.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.12.4/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_6234e
-/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6234e.dir/link.txt --verbose=1
-/usr/local/Cellar/gcc/8.2.0/bin/gcc-8  -DCHECK_FUNCTION_EXISTS=sqlite3_open -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6234e.dir/CheckFunctionExists.c.o  -o cmTC_6234e -lsqlite3 
+Building C object CMakeFiles/cmTC_623b1.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8   -DCHECK_FUNCTION_EXISTS=sqlite3_open   -std=c11 -o CMakeFiles/cmTC_623b1.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.12.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_623b1
+/usr/local/Cellar/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_623b1.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.2.0/bin/gcc-8  -DCHECK_FUNCTION_EXISTS=sqlite3_open -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_623b1.dir/CheckFunctionExists.c.o  -o cmTC_623b1 -lsqlite3 
 gmake[1]: Leaving directory '/Users/me/Documents/Workspace/GitHub/Cpp/GeoLogger/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
