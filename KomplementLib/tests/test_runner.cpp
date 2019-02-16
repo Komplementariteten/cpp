@@ -8,7 +8,7 @@
 #include "../net.h"
 
 int TestServerSocketBind() {
-    komplement::net::connect::serve_tcp(55);
+    auto connection = komplement::net::serve_tcp(55);
     return 0;
 }
 
