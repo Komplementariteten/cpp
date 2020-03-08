@@ -1,0 +1,2 @@
+/usr/bin/ar qc libKomplementariteLib.a  CMakeFiles/KomplementariteLib.dir/library.cpp.o
+/usr/bin/ranlib libKomplementariteLib.a

@@ -1,0 +1,4 @@
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/Cellar/gcc/9.2.0_2/bin/gcc-9 -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc/9.2.0_2/bin/g++-9 -G "CodeBlocks - Unix Makefiles" /Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug

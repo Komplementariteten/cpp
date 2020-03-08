@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="KomplementariteLib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KomplementariteLib">
+				<Option output="/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/libKomplementariteLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0_2/lib/gcc/9/gcc/x86_64-apple-darwin19/9.2.0/../../../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0_2/lib/gcc/9/gcc/x86_64-apple-darwin19/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0_2/lib/gcc/9/gcc/x86_64-apple-darwin19/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0_2/lib/gcc/9/gcc/x86_64-apple-darwin19/9.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0_2/lib/gcc/9/gcc/x86_64-apple-darwin19/9.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 KomplementariteLib"/>
+					<CompileFile command="/usr/local/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KomplementariteLib/fast">
+				<Option output="/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/libKomplementariteLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0_2/lib/gcc/9/gcc/x86_64-apple-darwin19/9.2.0/../../../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0_2/lib/gcc/9/gcc/x86_64-apple-darwin19/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0_2/lib/gcc/9/gcc/x86_64-apple-darwin19/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0_2/lib/gcc/9/gcc/x86_64-apple-darwin19/9.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0_2/lib/gcc/9/gcc/x86_64-apple-darwin19/9.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 KomplementariteLib/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j12 -f &quot;/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/library.cpp">
+			<Option target="KomplementariteLib"/>
+		</Unit>
+		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/library.h">
+			<Option target="KomplementariteLib"/>
+		</Unit>
+		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/observers.h">
+			<Option target="KomplementariteLib"/>
+		</Unit>
+		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/tests.h">
+			<Option target="KomplementariteLib"/>
+		</Unit>
+		<Unit filename="/Users/me/Documents/Workspace/GitHub/Cpp/KomplementariteLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

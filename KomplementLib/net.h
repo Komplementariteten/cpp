@@ -11,7 +11,6 @@
 #include <sys/socket.h>
 #include <sys/select.h>
 #include <netinet/in.h>
-#include <iterator>
 #include <thread>
 #include "type_tools.h"
 
@@ -24,13 +23,13 @@ namespace komplement {
         typedef int address_family;
         typedef int socket_type;
         typedef int port_number;
-        typedef std::function<std::unique_ptr<std::vector<char>> (const std::container* container)> processing_func;
+        typedef std::function<std::unique_ptr<std::vector<char>> (const std::vector<char>& container)> processing_func;
 
 
-        template <class Function, class... Args>
         class Runner {
             std::thread t;
         public:
+            template <class Function, class... Args>
             Runner(Function&& fnc, Args... args): t(std::thread(fnc, args...)){}
             ~Runner() {
                 t.join();
@@ -42,7 +41,9 @@ namespace komplement {
             processing_func& handle;
             sockaddr_in clientadr;
         public:
-            Client(processing_func&& processingFunc): handle(processingFunc) {}
+            Client(processing_func&& processingFunc): handle(processingFunc), fd(-1)  {
+                fd = -1;
+            }
         };
 
         struct Server {
@@ -52,7 +53,7 @@ namespace komplement {
             port_number port;
             int max_pending = 3;
             sockaddr_in sockaddr;
-            // std::vector<Client> clients;
+            std::vector<Runner> clients;
         };
 
         const void thread_run_clienthandle(const Client& client) {
@@ -62,11 +63,12 @@ namespace komplement {
                 close(client.fd);
                 return ;
             }
-            auto response = client.handle(std::begin(buffer), std::end(buffer));
+            auto data = std::vector<char>(std::begin(buffer), std::end(buffer));
+            auto response = client.handle(data);
             write(client.fd, response.get(), DATABUFFER_SIZE);
         }
 
-        const void thread_run_srvhandle(const Server& con, processing_func data_handle) {
+        const void thread_run_srvhandle(const Server& con, processing_func&& data_handle) {
             void sig_int(int);
             signal(SIGINT, sig_int);
             struct sockaddr_in clientadr;
@@ -80,9 +82,12 @@ namespace komplement {
                 if(0 < (client_sock = accept(con.fd, (struct sockaddr *) &clientadr, &clen))) {
                     return;
                 }
-                Client client(thread_run_clienthandle);
+                Client client(data_handle);
                 client.fd = client_sock;
                 client.clientadr = clientadr;
+
+                auto r = Runner(thread_run_clienthandle, client);
+                con.clients.push_back(r);
                 // con.clients.push_back(client);
             }
         }
