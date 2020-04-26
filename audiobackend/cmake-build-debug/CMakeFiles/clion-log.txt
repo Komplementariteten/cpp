@@ -1,0 +1,4 @@
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/local/Cellar/make/4.2.1_1/bin/gmake -DCMAKE_C_COMPILER=/usr/local/Cellar/llvm/9.0.0_1/bin/clang-9 -DCMAKE_CXX_COMPILER=/usr/local/Cellar/llvm/9.0.0_1/bin/clang-9 -G "CodeBlocks - Unix Makefiles" /Users/me/Documents/Workspace/GitHub/Cpp/audiobackend
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/me/Documents/Workspace/GitHub/Cpp/audiobackend/cmake-build-debug
