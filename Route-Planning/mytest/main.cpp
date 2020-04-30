@@ -26,19 +26,7 @@ private:
     int width_;
     int height_;
 };
-// Add friend class Rectangle
 
-// Add private attribute side
-
-// Add public function to Rectangle: Area()
-
-// Add private attributes width, height;
-
-// Define a Rectangle constructor that takes a Square
-
-// Define Area() to compute area of Rectangle
-
-// Update main() to pass the tests
 int main()
 {
     Square square(4);
