@@ -1,3 +1,7 @@
+# Camke Stuff
+cmake-build-debug/
+*/cmake-build-debug/
+
 # Prerequisites
 *.d
 
@@ -30,3 +34,4 @@
 *.exe
 *.out
 *.app
+
