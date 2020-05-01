@@ -1,9 +1,12 @@
+#include "linux_parser.h"
+
 #include <dirent.h>
 #include <unistd.h>
+#include <iostream>
+#include <filesystem>
+#include <sstream>
 #include <string>
 #include <vector>
-
-#include "linux_parser.h"
 
 using std::stof;
 using std::string;
@@ -44,6 +47,19 @@ string LinuxParser::Kernel() {
     linestream >> os >> kernel;
   }
   return kernel;
+}
+
+vector<int> LinuxParser::Pids_fs() {
+  std::filesystem::path d(kProcDirectory);
+  vector<int> pids;
+  for (auto& fs : std::filesystem::directory_iterator(d)){
+      auto file_name_string = fs.path().filename().string();
+      if (std::all_of(file_name_string.begin(), file_name_string.end(), isdigit)) {
+          int pid = stoi(file_name_string);
+          pids.push_back(pid);
+      }
+  }
+  return pids;
 }
 
 // BONUS: Update this to use std::filesystem

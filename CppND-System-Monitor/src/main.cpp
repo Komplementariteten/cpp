@@ -3,5 +3,6 @@
 
 int main() {
   System system;
-  NCursesDisplay::Display(system);
+  system.Processes();
+  // NCursesDisplay::Display(system);
 }

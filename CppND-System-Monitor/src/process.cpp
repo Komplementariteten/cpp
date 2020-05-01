@@ -1,32 +1,35 @@
-#include <unistd.h>
-#include <cctype>
-#include <sstream>
-#include <string>
-#include <vector>
-
 #include "process.h"
 
 using std::string;
 using std::to_string;
 using std::vector;
 
-// TODO: Return this process's ID
-int Process::Pid() { return 0; }
+Process::Process(int pid) :pid_(pid) {
+    UpdateProcess();
+}
 
-// TODO: Return this process's CPU utilization
-float Process::CpuUtilization() { return 0; }
+void Process::UpdateProcess() {
+    auto now = std::chrono::steady_clock::now();
+    if (now > (update_interval_ + last_updated_)) {
+        ram_ = LinuxParser::Ram(pid_);
+        uid_ = LinuxParser::Uid(pid_);
+        command_ = LinuxParser::Command(pid_);
+        cpuutilization_ = LinuxParser::ActiveJiffies(pid_);
+        uptime_ = LinuxParser::UpTime(pid_);
+    }
+}
 
-// TODO: Return the command that generated this process
-string Process::Command() { return string(); }
+int Process::Pid() { return pid_; }
 
-// TODO: Return this process's memory utilization
-string Process::Ram() { return string(); }
+float Process::CpuUtilization() { return cpuutilization_; }
 
-// TODO: Return the user (name) that generated this process
-string Process::User() { return string(); }
+string Process::Command() { return command_; }
 
-// TODO: Return the age of this process (in seconds)
-long int Process::UpTime() { return 0; }
+string Process::Ram() { return ram_; }
+
+string Process::User() { return uid_; }
+
+long int Process::UpTime() { return uptime_; }
 
 // TODO: Overload the "less than" comparison operator for Process objects
 // REMOVE: [[maybe_unused]] once you define the function
