@@ -16,6 +16,7 @@ void Process::UpdateProcess() {
         command_ = LinuxParser::Command(pid_);
         cpuutilization_ = LinuxParser::ActiveJiffies(pid_);
         uptime_ = LinuxParser::UpTime(pid_);
+        std::cout << "Proc V:" << ram_ << "|" << uid_ << "|" << command_ << "|" << cpuutilization_ << "|" <<  std::endl;
     }
 }
 
