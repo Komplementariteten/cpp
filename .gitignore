@@ -38,3 +38,6 @@ build/
 *.out
 *.app
 
+#other Files
+*.zip
+*a.out*

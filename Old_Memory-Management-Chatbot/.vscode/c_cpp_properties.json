@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/local/opt/llvm/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
+            "configurationProvider": "vector-of-bool.cmake-tools",
+            "compilerArgs": [
+                "-I/usr/local/opt/llvm/include",
+                "-I/usr/local/opt/llvm/include/c++/v1/",
+                "-I/Users/me/Workspace/Libaries/include",
+                "-stdlib=libc++",
+                "-std=c++17"
+            ]
+        }
+    ],
+    "version": 4
+}

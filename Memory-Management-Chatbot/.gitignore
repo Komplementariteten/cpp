@@ -1,0 +1,60 @@
+# Created by .ignore support plugin (hsz.mobi)
+### CMake template
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+### C++ template
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+Würde .idea/ löschen
+Würde cmake-build-debug/ löschen
+!/build/
+Würde .idea/.gitignore löschen
+Würde .idea/.name löschen
+Würde .idea/Memory-Management-Chatbot.iml löschen
+Würde .idea/misc.xml löschen
+Würde .idea/modules.xml löschen
+Würde .idea/serialmonitor_settings.xml löschen
+Würde .idea/vcs.xml löschen
+Würde cmake-build-debug/Membot.cbp löschen
+Würde cmake-build-debug/membot löschen

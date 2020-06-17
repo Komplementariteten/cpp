@@ -44,84 +44,25 @@ ChatBot::~ChatBot()
 
 //// STUDENT CODE
 ////
-// copy constructor
-ChatBot::ChatBot(const ChatBot &chatBot)
+ChatBot::ChatBot(const ChatBot &source)
 {
-    std::cout << "ChatBot Copy Constructor" << std::endl;
-    if(chatBot._image != NULL) {
-        _image = new wxBitmap(*chatBot._image);
-    }
-    _chatLogic = chatBot._chatLogic;
-    _rootNode = chatBot._rootNode;
-    _currentNode = chatBot._currentNode;
-
-    _chatLogic->SetChatbotHandle(this);
+     std::cout << "ChatBot Copy Constructor" << std::endl;
+     *_image = *source._image;
+     *_chatLogic = *source. _chatLogic;
+    *_rootNode = *source._rootNode;
 }
 
-// move constructor
-ChatBot::ChatBot(ChatBot &&chatBot)
+ChatBot::ChatBot(ChatBot &&source)
 {
     std::cout << "ChatBot Move Constructor" << std::endl;
-    _image = chatBot._image;
-
-    _chatLogic = chatBot._chatLogic;
-    _rootNode = chatBot._rootNode;
-
-    _chatLogic->SetChatbotHandle(this);
-
-    chatBot._chatLogic = nullptr;
-    chatBot._rootNode = nullptr;
-    chatBot._image = nullptr;
-}
-ChatBot& ChatBot::operator=(const ChatBot &chatBot) {
-    std::cout << "ChatBot Copy Assignment Operator" << this << std::endl;
-    if(this == &chatBot)
-        return *this;
-
-    // i am not sure if we really should do that
-    // seems to be bound by UI
-    delete _image;
-
-    // Create Heap Memory
-    if(chatBot._image != NULL) {
-        _image = new wxBitmap(*chatBot._image);
-    }
-
-    _currentNode = chatBot._currentNode;
-    _rootNode = chatBot._rootNode;
-
-    _chatLogic->SetChatbotHandle(this);
-
-    return *this;
+       
+    _image = source._image;
+    *_chatLogic = *source._chatLogic;
+    _rootNode = std::move(source._rootNode);
+    source._image = nullptr;
+    source._rootNode = nullptr;
 }
 
-ChatBot& ChatBot::operator=(ChatBot &&chatBot)
-{
-    // Move Assignment
-    std::cout << "ChatBot Move Assignment Operator" << std::endl;
-    if(this == &chatBot)
-    return *this;
-
-    // Owned Resources
-    // i am not sure if we really should do that
-    // seems to be bound by UI
-    delete _image;
-    _image = chatBot._image;
-    chatBot._image = nullptr;
-
-    // Not Owned Resources
-    _currentNode = chatBot._currentNode;
-    _rootNode = chatBot._rootNode;
-
-    _chatLogic = chatBot._chatLogic;
-    _chatLogic->SetChatbotHandle(this);
-
-    chatBot._chatLogic = nullptr;
-    chatBot._rootNode = nullptr;
-    chatBot._image = nullptr;
-
-    return *this;
-}
 ////
 //// EOF STUDENT CODE
 

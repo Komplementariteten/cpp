@@ -3,6 +3,7 @@
 
 #include <wx/bitmap.h>
 #include <string>
+#include <iostream>
 
 class GraphNode; // forward declaration
 class ChatLogic; // forward declaration
@@ -23,12 +24,16 @@ private:
 
 public:
     // constructors / destructors
-    ChatBot();                     // constructor WITHOUT memory allocation
-    ChatBot(std::string filename); // constructor WITH memory allocation
+    ChatBot();                          // constructor WITHOUT memory allocation
+    ChatBot(std::string filename);      // constructor WITH memory allocation
     ~ChatBot();
 
     //// STUDENT CODE
     ////
+    ChatBot(const ChatBot &chatBot);    // copy Constructor
+    ChatBot(ChatBot &&chatBot);         // move Constructor
+    ChatBot &operator=(ChatBot &&chatBot); // move Assignment
+    ChatBot &operator=(const ChatBot &chatBot); // copy Assignment
 
     ////
     //// EOF STUDENT CODE
