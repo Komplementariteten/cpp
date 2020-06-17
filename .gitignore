@@ -1,3 +1,10 @@
+# Camke Stuff
+cmake-build-*/
+build/
+
+# Idea
+.idea/
+
 # Prerequisites
 *.d
 
@@ -30,3 +37,7 @@
 *.exe
 *.out
 *.app
+
+#other Files
+*.zip
+*a.out*
