@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 2.6)
 set(CMAKE_CXX_STANDARD 17)
 
-set(CMAKE_C_COMPILER /usr/bin/clang-9)
-set(CMAKE_CXX_COMPILER /usr/bin/clang++-9)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libc++ -v -std=c++17")
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -stdlib=libc++ -lc++abi")
 

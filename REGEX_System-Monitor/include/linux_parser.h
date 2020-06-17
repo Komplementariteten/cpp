@@ -32,7 +32,7 @@ namespace LinuxParser {
     private:
         std::string key_;
         std::regex value_re_ = {};
-        std::vector<std::string>* values_;
+        std::vector<std::string> values_;
         bool is_valid_ = false;
     public:
         ParseToken(const std::string k, std::regex re);
@@ -52,8 +52,8 @@ namespace LinuxParser {
     class ResultCache {
     public:
         ResultCache();
-        std::shared_ptr<std::vector<std::string>> Result() const;
-        void Update(std::vector<std::string>* result);
+        std::vector<std::string> Result() const;
+        void Update(std::vector<std::string> result);
         std::chrono::time_point<std::chrono::steady_clock>& LastUpdated();
     private:
         std::shared_ptr<std::vector<std::string>> result_;
