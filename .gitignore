@@ -1,6 +1,9 @@
 # Camke Stuff
 cmake-build-*/
 build/
+.cmake
+.vscode
+
 
 # Idea
 .idea/
