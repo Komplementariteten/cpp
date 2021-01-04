@@ -1,10 +1,10 @@
 #include <iostream>
-#include "Server/ServerSocket.h"
+#include "ServerSocket.h"
 
 using namespace serialization_tests;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    std::cout << "Starting Server!" << std::endl;
     Container<meta_info, data_item>* c = new Container<meta_info, data_item>(128);
     c->meta_info->Y = 55;
     c->meta_info->flag = 8;

@@ -12,9 +12,9 @@
 #include <stdlib.h>
 #include <fcntl.h>
 #include <unistd.h>
-#include <c++/v1/vector>
-#include <c++/v1/thread>
-#include <c++/v1/iostream>
+#include <vector>
+#include <thread>
+#include <iostream>
 #include "../include/datatypes.h"
 #include "../include/functions.h"
 
@@ -25,11 +25,16 @@ namespace serialization_tests {
     class ServerSocket {
     public:
         explicit ServerSocket(Container<T1, T2> &container) : buffer_(), clientPool_(0),
-                                                              is_accepting(true) {
-            buffer_size_ = container.size;
-            buffer_ = as_bytes(container, buffer_size_);
-            // auto new_container = from_bytes<Container<T1, T2>, int>(buffer_, container.size, container.items.size());
-            auto sock_fp = ConnectTooLoopBack();
+                                                              is_accepting(true), delimiter_() {
+            auto m = container.meta_info;
+            buffer_size_ = sizeof(meta_info);
+            auto d = as_bytes(SEPERATOR_VALUES);
+            auto b = as_bytes(m, buffer_size_);
+            d.reserve(d.size() + std::distance(b.begin(), b.end()));
+            d.insert(d.end(), b.begin(), b.end());
+            buffer_ = d;
+            std::cout << "sizes:" << sizeof(SEPERATOR_VALUES) << "|" << buffer_size_ << "|" << std::endl;
+            auto sock_fp = this->ConnectTooLoopBack();
             std::cout << "Starting with " << std::thread::hardware_concurrency() << " max concurrent threads" << std::endl;
             acceptHandle_ = std::thread([=] { this->StartAcceptHandle(sock_fp); });
         };
@@ -72,7 +77,8 @@ namespace serialization_tests {
     private:
         int serverSocket_{};
         std::vector<std::thread> clientPool_;
-        char* buffer_;
+        std::vector<std::byte> buffer_;
+        std::vector<std::byte> delimiter_;
         size_t buffer_size_;
         std::thread acceptHandle_;
         bool is_accepting{};
@@ -102,10 +108,10 @@ namespace serialization_tests {
 
         void HandleClientConnection(int socket_fp){
             for (auto i = 0; i < 100; i++) {
-                std::cout << "-";
-                auto content = ".";
-                send(socket_fp, buffer_, buffer_size_, 0);
+                std::cout << ".";
+                auto two = send(socket_fp, &buffer_[0], buffer_size_, 0);
             }
+            std::cout << std::endl;
             close(socket_fp);
             std::cout << std::this_thread::get_id() << " done " << std::endl;
         }

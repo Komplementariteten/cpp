@@ -9,14 +9,14 @@
 #include <vector>
 namespace serialization_tests {
 
-    const u_long SEPERATOR_VALUES = ULONG_MAX;
+    const u_long SEPERATOR_VALUES = 0xAABBCC00AABBCC;
 
     struct meta_info {
-        long x = 0;
-        long Y = 0;
-        long Z = 0;
-        int tags;
-        int flag;
+        long x = -66;
+        long Y = -18;
+        long Z = -4;
+        int tags = 0;
+        int flag = 0;
         meta_info() {
 
         }
