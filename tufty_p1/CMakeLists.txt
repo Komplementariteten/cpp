@@ -1,37 +1,54 @@
-# Minimal zulässige Version von CMake: 
-cmake_minimum_required(VERSION 3.15)
-# Inkludieren des Pico-SDK: 
+cmake_minimum_required(VERSION 3.12)
+
+# Change your executable name to something creative!
+set(NAME pico-boilerplate) # <-- Name your project/executable here!
+
+include(pimoroni_pico_import.cmake)
 include(pico_sdk_import.cmake)
 
-# enable usb output
-# pico_enable_stdio_usb(${OUTPUT_NAME} 1)
+# Gooey boilerplate
+project(${NAME} C CXX ASM)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 
-# pico_add_extra_outputs(${OUTPUT_NAME})
-# Name und Version des Projekts: 
-project(MeinPicoProjekt VERSION 1.0.0) 
+# Initialize the SDK
+pico_sdk_init()
 
-# set(OUTPUT_NAME tufty2040_drawing)
-add_executable(MeinPicoProjekt show_pics.cpp)
-
-target_link_libraries(MeinPicoProjekt
-        hardware_i2c
-        pico_stdlib
-        tufty2040
-        hardware_spi
-        pico_graphics
-        st7789
-        button
+# Add your source files
+add_executable(${NAME}
+    main.cpp # <-- Add source files here!
 )
 
-# Das Projekt mit einer Quelldatei verknüpfen, das das Hauptprogramm enthält:  
-# add_executable(MeinPicoProjekt show_pics.c) 
-# Angabe der benötigten Bibliothek(en): 
-# target_link_libraries(MeinPicoProjekt hardware_i2c pico_stdlib) 
-# Initialisieren des SDK: 
-pico_sdk_init()
-# Zugriff auf USB und UART ermöglichen (1 = enable, 0 = disable): 
-pico_enable_stdio_usb(MeinPicoProjekt 1) 
-pico_enable_stdio_uart(MeinPicoProjekt 1)
-# Definition notwendiger Extra-Zieldateien. Hieraus generiert das Tooling
-# die für die Übertragung auf den Pico benötigte UF2-Datei: 
-pico_add_extra_outputs(MeinPicoProjekt)
+# Include required libraries
+# This assumes `pimoroni-pico` is stored alongside your project
+# include(common/pimoroni_i2c)
+# include(common/pimoroni_bus)
+# include(libraries/bitmap_fonts/bitmap_fonts)
+# include(libraries/hershey_fonts/hershey_fonts)
+# include(libraries/pico_explorer/pico_explorer)
+
+# Don't forget to link the libraries you need!
+target_link_libraries(${NAME}
+#    pimoroni_i2c
+#    pico_explorer # <-- List libraries here!
+    tufty2040
+    hardware_spi
+    pico_graphics
+    st7789
+    button
+)
+
+# create map/bin/hex file etc.
+pico_enable_stdio_usb(${NAME} 1)
+pico_add_extra_outputs(${NAME})
+
+# Set up files for the release packages
+install(FILES
+    ${CMAKE_CURRENT_BINARY_DIR}/${NAME}.uf2
+    ${CMAKE_CURRENT_LIST_DIR}/README.md
+    DESTINATION .
+)
+
+set(CPACK_INCLUDE_TOPLEVEL_DIRECTORY OFF)
+set(CPACK_GENERATOR "ZIP" "TGZ")
+include(CPack)
