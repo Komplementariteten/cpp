@@ -3,6 +3,7 @@
 #include <array>
 #include <format>
 #include <vector>
+#include <cstdint>
 
 using namespace std;
 
@@ -16,16 +17,16 @@ constexpr auto slice(T &&container) {
 }
 
 struct TiffHeader {
-    unsigned short int byte_order;
-    unsigned short int tiff_id;
-    unsigned int ifd_offset;
+    uint16_t byte_order;
+    uint16_t tiff_id;
+    int32_t ifd_offset;
 };
 
 struct IfdEntry {
-    unsigned short int tag;
-    unsigned short int field_type;
-    unsigned int count;
-    int value_offset;
+    uint16_t tag;
+    uint16_t field_type;
+    uint32_t count;
+    uint32_t value;
 };
 
 const unsigned short TIFF_ID = 42;
@@ -40,30 +41,55 @@ auto slice(T &&container, int left, int right) {
     }
 }
 
+void read_ifd(vector<uint8_t> data_reader, const TiffHeader* header) {
+    auto position = header->ifd_offset  /* + sizeof(TiffHeader)*/;
+    auto tag_count = (data_reader[position + 1] << 8) |data_reader[position];
+    cout << tag_count << " Found Tags" << std::endl;
+    auto offset = header->ifd_offset + 2;
+    for (int i = 0; i < tag_count; ++i) {
+        auto ifd_data = slice(data_reader, offset, offset + IfdEntrySize);
+        offset = offset + IfdEntrySize;
+        auto ifd = reinterpret_cast<IfdEntry*>(ifd_data.data());
+        std::cout << "Ifd Tag:" << ifd->tag << ", Field Type:" << ifd->field_type << ", Count:" << ifd->count << ", Value: " << ifd->value << std::endl;
+
+    }
+}
+
+void read_tags(vector<uint8_t> data_reader, const TiffHeader* header) {
+    auto position = header->ifd_offset  + sizeof(TiffHeader);
+    while (position < data_reader.size()) {
+        auto ifd_data = slice(data_reader, position, position + IfdEntrySize);
+        position = position + IfdEntrySize;
+        auto ifd = reinterpret_cast<IfdEntry*>(ifd_data.data());
+        std::cout << "Ifd Tag:" << ifd->tag << ", Field Type:" << ifd->field_type << ", Count:" << ifd->count << ", Value offset: " << ifd->value << std::endl;
+
+    }
+}
+
+
 void analyse_data(char *raw_data, int data_length) {
     std::cout << data_length << " Bytes read" << std::endl;
     auto data = reinterpret_cast<unsigned char *>(raw_data);
-    vector<unsigned char> data_reader(data, data + data_length);
+    vector<uint8_t> data_reader(data, data + data_length);
+    int count = 0;
     for (auto en: data_reader) {
-        std::cout << std::format("{:03d}", en) << std::endl;
+        std::cout << std::format("{:04d}:{:02X} ",count, en);
+        count++;
     }
-    std::cout << "======" << std::endl;
+    std::cout << std::endl << "======" << std::endl;
 
     // Read Header
     auto header_data = slice<0, 8>(data_reader);
     auto header = reinterpret_cast<TiffHeader *>(header_data.data());
     std::cout << "Header byte_order:" << std::format("{:X}", header->byte_order) << " Id:"
-              << format("{:d}", header->tiff_id) << "IFD offset:" << format("{:d}", header->ifd_offset) << std::endl;
-    if (header->tiff_id != TIFF_ID) {
+              << format("{:d}", header->tiff_id) << " IFD offset:" << format("{:d}", header->ifd_offset) << std::endl;
+    if (header->tiff_id != TIFF_ID && header->tiff_id != 43) {
         std::cout << "File data does not seem to be TIF formated" << std::endl;
         return;
     }
 
     // Read fist IFD (Page)
-    auto ifd_data = slice(data_reader, header->ifd_offset, header->ifd_offset + IfdEntrySize);
-    auto ifd1 = reinterpret_cast<IfdEntry*>(ifd_data.data());
-    std::cout << "Ifd1 Tag:" << ifd1->tag << ", Field Type:" << ifd1->field_type << ", Count:" << ifd1->count << ", Value offset: "<< ifd1->value_offset << std::endl;
-
+    read_ifd(data_reader, header);
 }
 
 int main(int argc, char *argv[]) {
