@@ -7,7 +7,7 @@ struct IfdEntry {
     uint16_t tag;
     uint16_t field_type;
     uint32_t count;
-    uint32_t value;
+    uint32_t value_or_offset;
 };
 
 TEST_CASE("sizeof", "[sizeof]") {

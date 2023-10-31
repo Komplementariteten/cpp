@@ -12,6 +12,7 @@
 #include <vector>
 #include <cstdint>
 #include <cstring>
+#include <span>
 #include "tag_types.h"
 
 using namespace std;
@@ -26,10 +27,10 @@ struct TiffHeader {
 };
 
 struct IfdEntry {
+    std::uint16_t tag;
     std::uint16_t field_type;
     std::uint32_t count;
-    std::uint32_t value;
-    std::uint16_t tag;
+    std::uint32_t value_or_offset;
 };
 
 class ImageDescription {
@@ -58,9 +59,9 @@ constexpr int IfdEntrySize = sizeof(IfdEntry);
 template<typename T>
 auto slice(T &&container, int left, int right) {
     if (right > 9) {
-        return std::span(begin(std::forward<T>(container)) + left, begin(std::forward<T>(container)) + right);
+        return span(begin(std::forward<T>(container)) + left, begin(std::forward<T>(container)) + right);
     }else {
-        return std::span(begin(std::forward<T>(container)) + left, end(std::forward<T>(container)) + right);
+        return span(begin(std::forward<T>(container)) + left, end(std::forward<T>(container)) + right);
     }
 }
 
@@ -80,35 +81,35 @@ void describe_tiff(const ImageDescription* desc) {
 }
 
 ImageDescription read_ifd(vector<uint8_t> data_reader, const TiffHeader* header) {
-    auto position = header->ifd_offset  /* + sizeof(TiffHeader)*/;
+    auto position = header->ifd_offset;
     auto tag_count = (data_reader[position + 1] << 8) | data_reader[position];
-    // cout << tag_count << " Found Tags" << std::endl;
+    cout << tag_count << " Found Tags" << std::endl;
     ImageDescription description;
-    auto offset = header->ifd_offset + 2;
+    auto offset = position + 2;
     for (int i = 0; i < tag_count; ++i) {
         auto ifd_data = slice(data_reader, offset, offset + IfdEntrySize);
         offset = offset + IfdEntrySize;
         auto ifd = reinterpret_cast<IfdEntry*>(ifd_data.data());
         // Plot Tag desciption
-        // std::cout << "Ifd Tag:" << ifd->tag << ", Field Type:" << ifd->field_type << ", Count:" << ifd->count << ", Value: " << ifd->value << std::endl;
+        std::cout << "Ifd Tag:" << ifd->tag << ", Field Type:" << ifd->field_type << ", Count:" << ifd->count << ", Value: " << ifd->value_or_offset << std::endl;
         switch (ifd->tag) {
             case TAG_BITS_PER_PIXEL:
-                description.bits_per_pixel_tag = ifd->value;
+                description.bits_per_pixel_tag = ifd->value_or_offset;
                 break;
             case TAG_COLOR_SHAPE:
-                description.color_shape_tag = ifd->value;
+                description.color_shape_tag = ifd->value_or_offset;
                 break;
             case TAG_COMPRESSION:
-                description.compression_tag = ifd->value;
+                description.compression_tag = ifd->value_or_offset;
                 break;
             case TAG_IMAGE_HEIGHT:
-                description.height = ifd->value;
+                description.height = ifd->value_or_offset;
                 break;
             case TAG_IMAGE_WITH:
-                description.width = ifd->value;
+                description.width = ifd->value_or_offset;
                 break;
             case TAG_SAMPLES_PER_PIXEL:
-                description.sample_per_pixel = ifd->value;
+                description.sample_per_pixel = ifd->value_or_offset;
                 break;
             default:
                 break;
