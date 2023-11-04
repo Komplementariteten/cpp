@@ -6,5 +6,6 @@
 #define TIFF_READER_MAIN_H
 
 #include "tiff_reader.h"
+#include "exporter.h"
 
 #endif //TIFF_READER_MAIN_H

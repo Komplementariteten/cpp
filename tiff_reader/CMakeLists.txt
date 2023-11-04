@@ -21,4 +21,5 @@ include(CTest)
 include(Catch)
 catch_discover_tests(tests)
 
-add_executable(tiff_reader main.cpp)
+add_executable(tiff_reader main.cpp
+)

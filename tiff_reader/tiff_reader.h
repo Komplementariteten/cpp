@@ -14,6 +14,7 @@
 #include <cstring>
 #include <span>
 #include "tag_types.h"
+#include "contracts.h"
 
 using namespace std;
 
@@ -31,18 +32,6 @@ struct IfdEntry {
     std::uint16_t field_type;
     std::uint32_t count;
     std::uint32_t value_or_offset;
-};
-
-class ImageDescription {
-public:
-    ImageDescription(): width(0), height(0), compression_tag(0), color_shape_tag(0), bits_per_pixel_tag(0), sample_per_pixel(0) {};
-    std::vector<uint8_t > pixel_bytes;
-    std::uint16_t width;
-    std::uint16_t height;
-    std::uint16_t compression_tag;
-    std::uint16_t color_shape_tag;
-    std::uint16_t bits_per_pixel_tag;
-    std::uint16_t sample_per_pixel;
 };
 
 /***
@@ -65,18 +54,15 @@ auto slice(T &&container, int left, int right) {
     }
 }
 
-void describe_tiff(const ImageDescription* desc) {
+void describe_tiff(ImageDescription* desc) {
     if(desc->color_shape_tag != RGB_COLOR_SPACE) {
         cout << "TIFF uses " << desc->color_shape_tag << ", this app supports only RBG" << std::endl;
         return;
     }
+    cout << "Width:" << desc->width << "|Height:" << desc->height << " Values per pixel:" << desc->sample_per_pixel << std::endl;
 
-
-
-    for (int i = 0; i < desc->height; ++i) {
-        for (int j = 0; j < desc->width; ++j) {
-
-        }
+    for(auto pixel: desc->pixels){
+        cout << "RBG(" << format("{:d}", pixel->red) << "," << format("{:d}", pixel->blue) << ", " << format("{:d}", pixel->green) << ")" << std::endl;
     }
 }
 
@@ -116,9 +102,11 @@ ImageDescription read_ifd(vector<uint8_t> data_reader, const TiffHeader* header)
         }
     }
 
-    auto pixel_data = slice(data_reader, sizeof(TiffHeader), header->ifd_offset);
-    for (auto byte: pixel_data) {
-        description.pixel_bytes.push_back(byte);
+    auto pixels_data = slice(data_reader, sizeof(TiffHeader), header->ifd_offset);
+    for (int i = 0; i < pixels_data.size(); i+= description.sample_per_pixel) {
+        auto pixel_data = slice(pixels_data, i, i + description.sample_per_pixel);
+        auto rgb_pixel = reinterpret_cast<RGBPixel *>(pixel_data.data());
+        description.pixels.push_back(rgb_pixel);
     }
     return description;
 }
