@@ -22,7 +22,8 @@ int main(int argc, char *argv[]) {
         auto memblock = new char[size];
         file.seekg(0, ios::beg);
         file.read(memblock, size);
-        analyse_data(memblock, size);
+        auto desc = tiff_reader::analyse_tiff_data(memblock, size);
+        tiff_reader::print_image_description(&desc);
         file.close();
     }
     return 0;

@@ -13,7 +13,9 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(Catch2)
 
-add_executable(tests test.cpp
+add_executable(tests tests.cpp
+        exporter.cpp
+        tiff_reader.cpp
 )
 target_link_libraries(tests PRIVATE Catch2::Catch2WithMain)
 list(APPEND CMAKE_MODULE_PATH ${catch2_SOURCE_DIR}/extras)
@@ -22,4 +24,6 @@ include(Catch)
 catch_discover_tests(tests)
 
 add_executable(tiff_reader main.cpp
+        exporter.cpp
+        tiff_reader.cpp
 )
