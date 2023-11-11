@@ -7,5 +7,6 @@
 
 #include "tiff_reader.h"
 #include "exporter.h"
+#include "cmd_tools.h"
 
 #endif //TIFF_READER_MAIN_H

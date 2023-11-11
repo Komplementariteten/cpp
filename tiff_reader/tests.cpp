@@ -3,6 +3,8 @@
 //
 
 #include <catch2/catch_test_macros.hpp>
+
+#include "cmd_tools.h"
 #include "exporter.h"
 
 struct IfdEntry {
@@ -10,6 +12,18 @@ struct IfdEntry {
     uint16_t field_type;
     uint32_t count;
     uint32_t value_or_offset;
+};
+
+class  CallbackTest {
+    bool state;
+public:
+    CallbackTest(): state(false) {};
+    void set_called() {
+        this->state = true;
+    }
+    [[nodiscard]] bool is_called() const {
+        return this->state;
+    }
 };
 
 TEST_CASE("sizeof", "[sizeof]") {
@@ -53,6 +67,19 @@ TEST_CASE("get_export_text", "[exporter]") {
     SECTION("EXPORT TEXT CONTAINS PIXELS IN ORDER") {
         const auto text = exporter::get_export_text(description, "ABC");
         REQUIRE(text.find("{0,255,0},{0,78,55}") != std::string::npos);
+    }
+
+}
+
+TEST_CASE("parse_executes_callback", "[cmd_tools]") {
+    const char* argv[] = {"123", "abc", "gef", "t"};
+    SECTION("EXECUTE CALLBACK WITH FULL NAME ARGUMENT") {
+        CallbackTest tester;
+        cmdtools::reg("123", [&tester](const std::string& arg) {
+            tester.set_called();
+        });
+        cmdtools::parse(4, argv);
+        REQUIRE(tester.is_called());
     }
 
 }
