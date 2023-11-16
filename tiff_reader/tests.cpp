@@ -72,14 +72,38 @@ TEST_CASE("get_export_text", "[exporter]") {
 }
 
 TEST_CASE("parse_executes_callback", "[cmd_tools]") {
-    const char* argv[] = {"123", "abc", "gef", "t"};
+    const char* argv[] = {"tests", "--123", "-abc", "gef", "t"};
     SECTION("EXECUTE CALLBACK WITH FULL NAME ARGUMENT") {
-        CallbackTest tester;
-        cmdtools::reg("123", [&tester](const std::string& arg) {
-            tester.set_called();
+        CallbackTest tester1{};
+        cmdtools::reg("123", "", [&tester1](const std::string& arg) {
+            tester1.set_called();
         });
         cmdtools::parse(4, argv);
-        REQUIRE(tester.is_called());
+        REQUIRE(tester1.is_called());
     }
-
+    SECTION("EXECUTE CALLBACK WITH SHORT NAME ARGUMENT") {
+        CallbackTest tester2{};
+        cmdtools::reg("a", "", [&tester2](const std::string& arg) {
+            tester2.set_called();
+        });
+        cmdtools::parse(4, argv);
+        REQUIRE(tester2.is_called());
+    }
+    SECTION("NOT EXECUTE CALLBACK WITH NOT REGISTERED FUNC") {
+        CallbackTest tester3{};
+        cmdtools::reg("foo","", [&tester3](const std::string& arg) {
+            tester3.set_called();
+        });
+        cmdtools::parse(4, argv);
+        REQUIRE(tester3.is_called() == false);
+    }
+    SECTION("REG return false when already used") {
+        cmdtools::reg("bar","", [](const std::string& arg) {
+        });
+        REQUIRE(!cmdtools::reg("bar","", [](const std::string& arg) {
+        }));
+    }
+    SECTION("REG return false when already used") {
+        REQUIRE(cmdtools::reg("ok","", [](const std::string& arg) {}));
+    }
 }
