@@ -60,7 +60,8 @@ namespace exporter {
         for (const auto pixel: img.pixels) {
             s += "{" + std::format("{},{},{}", pixel.red, pixel.green, pixel.blue) + "},";
         }
-        s += "}}\\n";
+        s += "}}";
+        s += '\n';
         return s;
     }
 }
