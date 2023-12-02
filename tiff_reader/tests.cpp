@@ -71,8 +71,19 @@ TEST_CASE("get_export_text", "[exporter]") {
 
 }
 
+TEST_CASE("string_find", "[std::string]") {
+    SECTION("") {
+        const auto text = std::string("hallo --welt 127.0.0.1 text -text");
+        const auto start = text.find("--welt") + 7;
+        const auto len = text.find('-', start) - start - 1;
+        const auto p = text.substr(start, len);
+        REQUIRE(p == "127.0.0.1 text");
+    }
+
+}
+
 TEST_CASE("parse_executes_callback", "[cmd_tools]") {
-    const char* argv[] = {"tests", "--123", "-abc", "gef", "t"};
+    const char* argv[] = {"tests", "--123", "-abc", "gef", "t", "--loo", "rio", "to", "-P"};
     SECTION("EXECUTE CALLBACK WITH FULL NAME ARGUMENT") {
         CallbackTest tester1{};
         cmdtools::reg("123", "", [&tester1](const std::string& arg) {
@@ -105,5 +116,15 @@ TEST_CASE("parse_executes_callback", "[cmd_tools]") {
     }
     SECTION("REG return false when already used") {
         REQUIRE(cmdtools::reg("ok","", [](const std::string& arg) {}));
+    }
+    SECTION("Callback gets correct parameter") {
+        cmdtools::clear();
+        CallbackTest tester4{};
+        cmdtools::reg("loo", "", [&tester4](const std::string& arg) {
+            if(arg == "rio to")
+                tester4.set_called();
+        });
+        cmdtools::parse(9, argv);
+        REQUIRE(tester4.is_called());
     }
 }

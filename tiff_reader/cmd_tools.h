@@ -15,6 +15,7 @@ namespace cmdtools {
         std::function<void(const std::string &)> callbak;
     };
     void parse(int argc, const char* argv[]);
+    void clear();
 
     /**
      * Registes a Callback foir a specific argument, anything starting with h

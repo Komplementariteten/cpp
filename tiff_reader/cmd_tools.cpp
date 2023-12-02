@@ -4,6 +4,8 @@
 
 #include "cmd_tools.h"
 
+#include <iostream>
+#include <numeric>
 #include <utility>
 
 namespace cmdtools {
@@ -28,18 +30,23 @@ namespace cmdtools {
             }
             return args;
         }
-        std::string combine_next_args(const std::vector<std::string>::iterator& vector_iterator) {
-            std::string join;
-            auto current = *vector_iterator;
-            for (; current != vector_iterator->end(); ++vector_iterator)
-            if(initial.starts_with('-')) {
-                return join;
+        std::string get_parameter(const std::string& all_args, const std::string& argument) {
+            const auto start = all_args.find(argument) + argument.length() + 1;
+            const auto lenght = all_args.find('-', start) - start - 1;
+            return all_args.substr(start, lenght);
+        }
+        void print_help(const std::string& program_name) {
+            std::cout << program_name << " <options>" << std::endl;
+            std::cout << "Options:" << std::endl;
+            for (const auto & [name, hint, short_name, _]: registry) {
+                std::cout << "--" << name << " | -" << short_name << "\t\t" << hint << std::endl;
             }
-            std::next(vector_iterator);
-            return join;
         }
     }
 
+    void clear() {
+        registry.clear();
+    }
 
     auto reg(const char* c_arg, const char* help_text, std::function<void(const std::string &)> func) -> bool {
         if(is_already_taken_in_registry_or_help(c_arg)) {
@@ -51,13 +58,24 @@ namespace cmdtools {
     }
 
     void parse(const int argc, const char* argv[]) {
+        if(argc == 1) {
+            print_help(argv[0]);
+            return;
+        }
         auto args_vector = vectorize(argc, argv);
+        auto all_args = std::accumulate(std::next(args_vector.begin()), args_vector.end(), args_vector[0], [](const std::string &a, const std::string &b) {
+            return a + " " + b;
+        });
+        if(all_args.find("-h") != std::string::npos) {
+            print_help(argv[0]);
+            return;
+        }
         for(auto it = args_vector.begin(); it != args_vector.end(); ++it) {
             auto argument = *it;
             if(auto handle = std::ranges::find_if(registry,   [argument](const Argument& arg) {
                 return ("--" + arg.name) == argument || ("-" + arg.short_name) == argument;
             }); handle != std::end(registry)) {
-                auto param_args = combine_next_args(it);
+                auto param_args = get_parameter(all_args, argument);
                 handle->callbak(param_args);
             }
         }

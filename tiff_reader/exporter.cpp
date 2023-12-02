@@ -12,17 +12,26 @@ namespace exporter {
         const std::regex FRegex("[^\\W]+", std::regex_constants::ECMAScript | std::regex_constants::icase);
     }
 
-    Export::Export(const std::string&target_file) {
-        this->target_file_ = target_file;
+    Export::Export(): target_set_(false) {
     }
 
+    void Export::add_target(const std::string& target_file) {
+        this->target_file_ = target_file;
+        this->target_set_ = true;
+    }
+
+
     void Export::add_image(const std::string&source_file) {
+        std::cout << "Adding images " << source_file << " to the export " << std::endl;
         const auto img_desc = tiff_reader::read_tiff_file(source_file);
         const auto export_name = filename_to_exportname(source_file);
         this->export_ += get_export_text(img_desc, export_name);
     }
 
     void Export::finish() const {
+        if(!this->target_set_)
+            return;
+        std::cout << "Writing to: " << this->target_file_ << std::endl;
         const auto s = EXPORT_HEADER + this->export_;
         std::ofstream outstream(this->target_file_, std::ios::trunc);
         outstream << s << std::endl;
