@@ -53,7 +53,8 @@ namespace tiff_reader {
             for (int i = 0; i < pixels_data.size(); i += description.sample_per_pixel) {
                 auto pixel_data = slice(pixels_data, i, i + description.sample_per_pixel);
                 auto rgb_pixel = reinterpret_cast<RGBPixel *>(pixel_data.data());
-                description.pixels.push_back(rgb_pixel);
+                auto v = *rgb_pixel;
+                description.pixels.push_back(v);
             }
             return description;
         }
@@ -87,9 +88,9 @@ namespace tiff_reader {
         std::cout << "Width:" << desc->width << "|Height:" << desc->height << " Values per pixel:" << desc->
                 sample_per_pixel << std::endl;
 
-        for (auto pixel: desc->pixels) {
-            std::cout << "RBG(" << std::format("{:d}", pixel->red) << "," << std::format("{:d}", pixel->blue) << ", " <<
-                    std::format("{:d}", pixel->green) << ")" << std::endl;
+        for (const auto &pixel: desc->pixels) {
+            std::cout << "RBG(" << std::format("{:d}", pixel.red) << "," << std::format("{:d}", pixel.blue) << ", " <<
+                    std::format("{:d}", pixel.green) << ")" << std::endl;
         }
     }
 

@@ -58,7 +58,7 @@ namespace exporter {
         s += type_name + " {";
         s += std::format("{},{},", img.width, img.height) + "{";
         for (const auto pixel: img.pixels) {
-            s += "{" + std::format("{},{},{}", pixel->red, pixel->green, pixel->blue) + "},";
+            s += "{" + std::format("{},{},{}", pixel.red, pixel.green, pixel.blue) + "},";
         }
         s += "}}\\n";
         return s;

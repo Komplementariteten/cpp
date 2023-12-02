@@ -15,7 +15,6 @@ void add_tiff_in_folder(exporter::Export& ex, const std::string& folder) {
         else
             std::cout << dir_entry.path() << " not added" << std::endl;
     }
-    ex.finish();
 }
 
 int main(const int argc, const char *argv[]) {
@@ -30,5 +29,6 @@ int main(const int argc, const char *argv[]) {
     });
 
     cmdtools::parse(argc, argv);
+    exporter.finish();
     return 0;
 }

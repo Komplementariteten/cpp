@@ -14,8 +14,8 @@ struct   RGBPixel {
 };
 
 struct RGBPixelExport {
-    std::uint16_t width;
-    std::uint16_t height;
+    std::uint16_t width{};
+    std::uint16_t height{};
     RGBPixel pixel[];
 };
 
@@ -23,8 +23,8 @@ class ImageDescription {
 public:
     ImageDescription(const uint16_t w, const uint16_t h): width(w), height(h), compression_tag(0), color_shape_tag(0), bits_per_pixel_tag(0), sample_per_pixel(0) {};
     ImageDescription(): width(0), height(0), compression_tag(0), color_shape_tag(0), bits_per_pixel_tag(0), sample_per_pixel(0) {};
-    ImageDescription(const uint16_t w, const uint16_t h, const std::vector<RGBPixel *>& p): pixels(p), width(w), height(h), compression_tag(0), color_shape_tag(0), bits_per_pixel_tag(0), sample_per_pixel(0) {};
-    std::vector<RGBPixel *> pixels;
+    ImageDescription(const uint16_t w, const uint16_t h, const std::vector<RGBPixel>& p): pixels(p), width(w), height(h), compression_tag(0), color_shape_tag(0), bits_per_pixel_tag(0), sample_per_pixel(0) {};
+    std::vector<RGBPixel> pixels;
     std::uint16_t width;
     std::uint16_t height;
     std::uint16_t compression_tag;
