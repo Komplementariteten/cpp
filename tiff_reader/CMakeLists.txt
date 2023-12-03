@@ -19,11 +19,16 @@ add_executable(tests tests.cpp
         cmd_tools.cpp
         cmd_tools.h
 )
+add_executable(data_tests
+        data_tests.cpp
+)
 target_link_libraries(tests PRIVATE Catch2::Catch2WithMain)
+target_link_libraries(data_tests PRIVATE Catch2::Catch2WithMain)
 list(APPEND CMAKE_MODULE_PATH ${catch2_SOURCE_DIR}/extras)
 include(CTest)
 include(Catch)
 catch_discover_tests(tests)
+catch_discover_tests(data_tests)
 
 add_executable(tiff_reader main.cpp
         exporter.cpp

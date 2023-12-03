@@ -71,6 +71,7 @@ TEST_CASE("get_export_text", "[exporter]") {
 
 }
 
+
 TEST_CASE("string_find", "[std::string]") {
     SECTION("") {
         const auto text = std::string("hallo --welt 127.0.0.1 text -text");
