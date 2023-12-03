@@ -33,8 +33,10 @@ namespace exporter {
             return;
         std::cout << "Writing to: " << this->target_file_ << std::endl;
         const auto s = EXPORT_HEADER + this->export_;
-        std::ofstream outstream(this->target_file_, std::ios::app | std::ios::trunc);
+        std::ofstream outstream;
+        outstream.open(this->target_file_, std::ios::app | std::ios::binary);
         outstream << s << std::endl;
+        outstream.flush();
         outstream.close();
     }
 
