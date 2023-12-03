@@ -11,6 +11,7 @@
 #include "contracts.h"
 #include "export_header.h"
 #include "tiff_reader.h"
+#include <locale>
 
 namespace exporter {
     std::string filename_to_exportname(const std::string& file_name);

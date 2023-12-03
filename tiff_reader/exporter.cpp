@@ -33,7 +33,7 @@ namespace exporter {
             return;
         std::cout << "Writing to: " << this->target_file_ << std::endl;
         const auto s = EXPORT_HEADER + this->export_;
-        std::ofstream outstream(this->target_file_, std::ios::trunc);
+        std::ofstream outstream(this->target_file_, std::ios::app | std::ios::trunc);
         outstream << s << std::endl;
         outstream.close();
     }
@@ -54,14 +54,15 @@ namespace exporter {
 
     std::string get_export_text(const ImageDescription&img, const std::string&type_name) {
         std::string s;
+        setlocale(LC_ALL, "german");
         s += "const RGBPixelExport ";
-        s += type_name + " {";
+        s += type_name + " {\n";
         s += std::format("{},{},", img.width, img.height) + "{";
         for (const auto pixel: img.pixels) {
             s += "{" + std::format("{},{},{}", pixel.red, pixel.green, pixel.blue) + "},";
         }
-        s += "}}";
-        s += '\n';
+        s += R"(}}
+)";
         return s;
     }
 }
